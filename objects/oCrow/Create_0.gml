@@ -1,4 +1,4 @@
-//Custom functions for player ASDHJKAHWEKJHJKAASDHJAKJS
+//Custom functions for player
 function setOnGround(_val = true)
 {
 
