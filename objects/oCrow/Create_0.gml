@@ -1,10 +1,10 @@
-//Custom functions for player
+//Custom functions for player ASDHJKAHWEKJHJKAASDHJAKJS
 function setOnGround(_val = true)
 {
 
 	if _val == true
 	{
-		onGround = true;
+		onGround = true;	
 		coyoteHangTimer = coyoteHangFrames;
 	}
 	else
@@ -134,4 +134,3 @@ flash_cooldown = 0; // to prevent instant retrigger
 flash = 0;
 hitfrom = 0;
 
-//HELLO MILAN
