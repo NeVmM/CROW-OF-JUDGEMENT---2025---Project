@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Key_Configures",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Key_Configures",
+  "parent":{
+    "name":"Actions_Controls",
+    "path":"folders/Actions_Controls.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
