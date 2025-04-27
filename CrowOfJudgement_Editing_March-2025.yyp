@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"CrowOfJudgement_ROLLUpdate(backup)",
   "resources":[
@@ -80,6 +80,7 @@
     {"id":{"name":"oTutorialControlsTEXT","path":"objects/oTutorialControlsTEXT/oTutorialControlsTEXT.yy",},},
     {"id":{"name":"RestArea","path":"rooms/RestArea/RestArea.yy",},},
     {"id":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
+    {"id":{"name":"Room_k","path":"rooms/Room_k/Room_k.yy",},},
     {"id":{"name":"ROOM_TEST","path":"rooms/ROOM_TEST/ROOM_TEST.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -147,6 +148,7 @@
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"RestArea","path":"rooms/RestArea/RestArea.yy",},},
     {"roomId":{"name":"ROOM_TEST","path":"rooms/ROOM_TEST/ROOM_TEST.yy",},},
+    {"roomId":{"name":"Room_k","path":"rooms/Room_k/Room_k.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

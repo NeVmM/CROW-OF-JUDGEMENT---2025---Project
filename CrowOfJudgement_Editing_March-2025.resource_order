@@ -49,6 +49,7 @@
     {"name":"oTutorialControlsTEXT","order":1,"path":"objects/oTutorialControlsTEXT/oTutorialControlsTEXT.yy",},
     {"name":"RestArea","order":8,"path":"rooms/RestArea/RestArea.yy",},
     {"name":"rm_MainMenu","order":5,"path":"rooms/rm_MainMenu/rm_MainMenu.yy",},
+    {"name":"Room_k","order":10,"path":"rooms/Room_k/Room_k.yy",},
     {"name":"ROOM_TEST","order":9,"path":"rooms/ROOM_TEST/ROOM_TEST.yy",},
     {"name":"Room2","order":4,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":6,"path":"rooms/Room3/Room3.yy",},
