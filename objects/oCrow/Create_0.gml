@@ -1,4 +1,4 @@
-// TESTING FOR GITHUB DESKTOP
+// TESTING PURPOSES
 
 
 //Custom functions for player
