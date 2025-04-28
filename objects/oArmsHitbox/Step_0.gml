@@ -9,7 +9,7 @@ if (place_meeting(x, y, oCrow))
 {
     with (instance_place(x, y, oCrow))
     {
-        hp -= 10;
+        hp -= 15;
         health -= 0.3;
         flash = 1.5;
     }

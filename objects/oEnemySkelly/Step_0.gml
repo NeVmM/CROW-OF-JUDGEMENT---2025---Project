@@ -125,7 +125,7 @@ if (is_attacking)
             attack_effect_spawned = true;
 			
 			hp--; // decrement by only 1 per hit
-			health-= 20;
+			health-= 10;
 			flash = 1.5;
 			
 			with (oCamera)

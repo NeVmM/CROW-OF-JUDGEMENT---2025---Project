@@ -21,6 +21,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"eObject1","order":1,"path":"objects/eObject1/eObject1.yy",},
+    {"name":"oArmsHitbox","order":6,"path":"objects/oArmsHitbox/oArmsHitbox.yy",},
     {"name":"obj_ButtonContinue","order":14,"path":"objects/obj_ButtonContinue/obj_ButtonContinue.yy",},
     {"name":"obj_ButtonCredits","order":17,"path":"objects/obj_ButtonCredits/obj_ButtonCredits.yy",},
     {"name":"obj_ButtonExit","order":15,"path":"objects/obj_ButtonExit/obj_ButtonExit.yy",},
@@ -66,6 +67,7 @@
     {"name":"Sprite_Attack","order":4,"path":"sprites/Sprite_Attack/Sprite_Attack.yy",},
     {"name":"Sprite_AttackFX","order":5,"path":"sprites/Sprite_AttackFX/Sprite_AttackFX.yy",},
     {"name":"Sprite_Dead","order":14,"path":"sprites/Sprite_Dead/Sprite_Dead.yy",},
+    {"name":"Sprite_EnemyArms_Attack","order":5,"path":"sprites/Sprite_EnemyArms_Attack/Sprite_EnemyArms_Attack.yy",},
     {"name":"Sprite_EnemyArms_Dead","order":3,"path":"sprites/Sprite_EnemyArms_Dead/Sprite_EnemyArms_Dead.yy",},
     {"name":"Sprite_EnemyArms_Idle","order":2,"path":"sprites/Sprite_EnemyArms_Idle/Sprite_EnemyArms_Idle.yy",},
     {"name":"Sprite_EnemyArms_Walking","order":1,"path":"sprites/Sprite_EnemyArms_Walking/Sprite_EnemyArms_Walking.yy",},

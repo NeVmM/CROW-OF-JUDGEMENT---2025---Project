@@ -40,11 +40,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"CrowOfJudgement_ROLLUpdate(backup)",
   "resources":[
     {"id":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},},
+    {"id":{"name":"oArmsHitbox","path":"objects/oArmsHitbox/oArmsHitbox.yy",},},
     {"id":{"name":"oBad","path":"objects/oBad/oBad.yy",},},
     {"id":{"name":"obj_ButtonContinue","path":"objects/obj_ButtonContinue/obj_ButtonContinue.yy",},},
     {"id":{"name":"obj_ButtonCredits","path":"objects/obj_ButtonCredits/obj_ButtonCredits.yy",},},
@@ -103,6 +104,7 @@
     {"id":{"name":"Sprite_Attack","path":"sprites/Sprite_Attack/Sprite_Attack.yy",},},
     {"id":{"name":"Sprite_AttackFX","path":"sprites/Sprite_AttackFX/Sprite_AttackFX.yy",},},
     {"id":{"name":"Sprite_Dead","path":"sprites/Sprite_Dead/Sprite_Dead.yy",},},
+    {"id":{"name":"Sprite_EnemyArms_Attack","path":"sprites/Sprite_EnemyArms_Attack/Sprite_EnemyArms_Attack.yy",},},
     {"id":{"name":"Sprite_EnemyArms_Dead","path":"sprites/Sprite_EnemyArms_Dead/Sprite_EnemyArms_Dead.yy",},},
     {"id":{"name":"Sprite_EnemyArms_Idle","path":"sprites/Sprite_EnemyArms_Idle/Sprite_EnemyArms_Idle.yy",},},
     {"id":{"name":"Sprite_EnemyArms_Walking","path":"sprites/Sprite_EnemyArms_Walking/Sprite_EnemyArms_Walking.yy",},},
