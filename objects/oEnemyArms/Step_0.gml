@@ -140,7 +140,7 @@ if (is_attacking)
 			
 			hp--; // decrement by only 1 per hit
 			health-= 15;
-			flash = 1.5;
+			//flash = 1.5;
 			
 			with (oCamera)
 			{
