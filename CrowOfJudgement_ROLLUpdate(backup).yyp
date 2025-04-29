@@ -93,6 +93,7 @@
     {"id":{"name":"Key_Configures","path":"scripts/Key_Configures/Key_Configures.yy",},},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},},
     {"id":{"name":"mTemporaryMusic","path":"sounds/mTemporaryMusic/mTemporaryMusic.yy",},},
+    {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},},
     {"id":{"name":"sContinueA","path":"sprites/sContinueA/sContinueA.yy",},},
     {"id":{"name":"sContinueB","path":"sprites/sContinueB/sContinueB.yy",},},
     {"id":{"name":"sCreditsA","path":"sprites/sCreditsA/sCreditsA.yy",},},

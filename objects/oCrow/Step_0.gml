@@ -375,7 +375,7 @@ if (onGround)
 
 #region Spike and HP Mechanics
 
-#region Healthbar ni Musico
+#region Healthbar  
 
 // health decreases due to traps
 
@@ -450,7 +450,8 @@ if (health > 0)
 // If health reaches 0, restart the game
 if (health <= 0) 
 {
-    game_restart();  // Restart the game when health is 0
+	
+    game_restart();  //Restart the game when health is 0
 	health = 100; //set back hp to 100 so you can start a new run again
 }
 

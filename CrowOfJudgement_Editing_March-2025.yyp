@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"CrowOfJudgement_ROLLUpdate(backup)",
+  "%Name":"CrowOfJudgement_Editing_March-2025",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -43,7 +43,7 @@
   "MetaData":{
     "IDEVersion":"2024.13.0.190",
   },
-  "name":"CrowOfJudgement_ROLLUpdate(backup)",
+  "name":"CrowOfJudgement_Editing_March-2025",
   "resources":[
     {"id":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},},
     {"id":{"name":"oArmsHitbox","path":"objects/oArmsHitbox/oArmsHitbox.yy",},},
@@ -89,10 +89,12 @@
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
+    {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"id":{"name":"AttackSlash","path":"scripts/AttackSlash/AttackSlash.yy",},},
     {"id":{"name":"Key_Configures","path":"scripts/Key_Configures/Key_Configures.yy",},},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},},
     {"id":{"name":"mTemporaryMusic","path":"sounds/mTemporaryMusic/mTemporaryMusic.yy",},},
+    {"id":{"name":"snd_armsattack","path":"sounds/snd_armsattack/snd_armsattack.yy",},},
     {"id":{"name":"sContinueA","path":"sprites/sContinueA/sContinueA.yy",},},
     {"id":{"name":"sContinueB","path":"sprites/sContinueB/sContinueB.yy",},},
     {"id":{"name":"sCreditsA","path":"sprites/sCreditsA/sCreditsA.yy",},},
@@ -157,6 +159,7 @@
     {"roomId":{"name":"ROOM_TEST","path":"rooms/ROOM_TEST/ROOM_TEST.yy",},},
     {"roomId":{"name":"Room_k","path":"rooms/Room_k/Room_k.yy",},},
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
+    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"mTemporaryMusic",
+  "%Name":"snd_armsattack",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":1,
+  "compression":0,
   "conversionMode":0,
-  "duration":-1.0,
-  "name":"mTemporaryMusic",
+  "duration":0.6240136,
+  "name":"snd_armsattack",
   "parent":{
     "name":"Music",
     "path":"folders/Music.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mTemporaryMusic.wav",
+  "soundFile":"snd_armsattack.mp3",
   "type":0,
   "volume":1.0,
 }
