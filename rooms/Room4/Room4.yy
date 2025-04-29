@@ -6,6 +6,8 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_96A56A5","path":"rooms/Room4/Room4.yy",},
+    {"name":"inst_77AF8778","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_4CC343A","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_4149FA50","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_28EBBAA2","path":"rooms/Room4/Room4.yy",},
@@ -29,7 +31,6 @@
     {"name":"inst_36F7D816","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_60DF996","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_8A32769","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_96A56A5","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_696E9A08","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_57682139","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_6788BA17","path":"rooms/Room4/Room4.yy",},
@@ -108,7 +109,6 @@
     {"name":"inst_4F259DB4","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_75D33CDC","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_6EA42984","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_77AF8778","path":"rooms/Room4/Room4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -133,7 +133,7 @@
           1,10,-5,-2147483648,1,1,-26,5,1,2,-18,-2147483648,1,1,-26,5,1,25,-18,4,1,26,-46,5,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_OvergrownBlock","path":"tilesets/Tile_OvergrownBlock/Tile_OvergrownBlock.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_77AF8778","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77AF8778","objectId":{"name":"oEnemySlimeAtkFX","path":"objects/oEnemySlimeAtkFX/oEnemySlimeAtkFX.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":-32.0,},
+        {"$GMRInstance":"v2","%Name":"inst_77AF8778","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77AF8778","objectId":{"name":"oEnemySlimeAtkFX","path":"objects/oEnemySlimeAtkFX/oEnemySlimeAtkFX.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":-32.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Weapon","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_96A56A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_96A56A5","objectId":{"name":"oCrowWeapon","path":"objects/oCrowWeapon/oCrowWeapon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":0.0,},
