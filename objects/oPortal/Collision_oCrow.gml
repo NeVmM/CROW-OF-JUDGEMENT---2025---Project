@@ -5,7 +5,7 @@ if (oRoomLimiter.roomLimit >= oRoomLimiter.maxTeleport)
 else
 {
     randomize();
-    var pick = irandom(4);
+    var pick = irandom(5);
     oRoomLimiter.roomLimit += 1;
 
     if (pick == 0) room_goto(Room1);
@@ -13,5 +13,6 @@ else
     if (pick == 2) room_goto(Room3);
     if (pick == 3) room_goto(Room4);
 	if (pick == 4) room_goto(Room5);
+	if (pick == 4) room_goto(Room6);
 	//if (pick == 0) room_goto(ROOM_TEST);
 }

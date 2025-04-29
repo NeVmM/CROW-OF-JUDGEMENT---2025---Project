@@ -1,7 +1,7 @@
 randomize();
 
 //Randomizer Code (TESTNIG PURPOSES)
-var pick = irandom(4);
+var pick = irandom(5);
 
 if (pick == 0)
 {
@@ -23,9 +23,13 @@ if (pick == 4)
 {
 	room_goto(Room5);
 }
+if (pick == 5)
+{
+	room_goto(Room5);
+}
 /*if (pick == 0)
 {
-	room_goto(Room4);
+	room_goto(Room6);
 }
 
 

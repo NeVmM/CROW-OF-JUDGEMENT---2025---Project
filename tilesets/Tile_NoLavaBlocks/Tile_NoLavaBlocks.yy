@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet5",
+  "%Name":"Tile_NoLavaBlocks",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet5",
+  "name":"Tile_NoLavaBlocks",
   "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Blocks.yy",
+    "name":"BlockTileSets",
+    "path":"folders/Blocks/BlockTileSets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite47",
-    "path":"sprites/Sprite47/Sprite47.yy",
+    "name":"spr_NoLavaBlocks",
+    "path":"sprites/spr_NoLavaBlocks/spr_NoLavaBlocks.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
