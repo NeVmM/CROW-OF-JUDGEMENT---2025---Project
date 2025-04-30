@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"CrowOfJudgement_Editing_March-2025",
-    "path":"CrowOfJudgement_Editing_March-2025.yyp",
+    "name":"EnemySkelly",
+    "path":"folders/Characters_and_Spike/Enemies/EnemySkelly.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

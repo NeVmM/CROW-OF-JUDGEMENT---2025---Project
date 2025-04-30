@@ -1,4 +1,4 @@
-function AttackSlash()
+/*function AttackSlash()
 {
 if (sprite_index != Sprite_Attack)
 {
