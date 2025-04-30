@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"CrowOfJudgement_Editing_March-2025",
   "resources":[
@@ -83,6 +83,8 @@
     {"id":{"name":"RestArea","path":"rooms/RestArea/RestArea.yy",},},
     {"id":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
     {"id":{"name":"Room_k","path":"rooms/Room_k/Room_k.yy",},},
+    {"id":{"name":"Room_k2","path":"rooms/Room_k2/Room_k2.yy",},},
+    {"id":{"name":"Room_k3","path":"rooms/Room_k3/Room_k3.yy",},},
     {"id":{"name":"ROOM_TEST","path":"rooms/ROOM_TEST/ROOM_TEST.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -133,6 +135,7 @@
     {"id":{"name":"Sprite_Glide","path":"sprites/Sprite_Glide/Sprite_Glide.yy",},},
     {"id":{"name":"Sprite_GlideIdle","path":"sprites/Sprite_GlideIdle/Sprite_GlideIdle.yy",},},
     {"id":{"name":"Sprite_GrassBlock","path":"sprites/Sprite_GrassBlock/Sprite_GrassBlock.yy",},},
+    {"id":{"name":"Sprite_HeavenBlocks","path":"sprites/Sprite_HeavenBlocks/Sprite_HeavenBlocks.yy",},},
     {"id":{"name":"Sprite_Idle","path":"sprites/Sprite_Idle/Sprite_Idle.yy",},},
     {"id":{"name":"Sprite_OvergrownBlock","path":"sprites/Sprite_OvergrownBlock/Sprite_OvergrownBlock.yy",},},
     {"id":{"name":"Sprite_Roll","path":"sprites/Sprite_Roll/Sprite_Roll.yy",},},
@@ -145,6 +148,7 @@
     {"id":{"name":"TemporaryBG","path":"sprites/TemporaryBG/TemporaryBG.yy",},},
     {"id":{"name":"Test_Block","path":"sprites/Test_Block/Test_Block.yy",},},
     {"id":{"name":"Tile_GrassBlock","path":"tilesets/Tile_GrassBlock/Tile_GrassBlock.yy",},},
+    {"id":{"name":"Tile_HeavenBlock","path":"tilesets/Tile_HeavenBlock/Tile_HeavenBlock.yy",},},
     {"id":{"name":"Tile_LavaBlocks","path":"tilesets/Tile_LavaBlocks/Tile_LavaBlocks.yy",},},
     {"id":{"name":"Tile_NoLavaBlocks","path":"tilesets/Tile_NoLavaBlocks/Tile_NoLavaBlocks.yy",},},
     {"id":{"name":"Tile_OvergrownBlock","path":"tilesets/Tile_OvergrownBlock/Tile_OvergrownBlock.yy",},},
@@ -162,6 +166,8 @@
     {"roomId":{"name":"Room_k","path":"rooms/Room_k/Room_k.yy",},},
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
     {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
+    {"roomId":{"name":"Room_k2","path":"rooms/Room_k2/Room_k2.yy",},},
+    {"roomId":{"name":"Room_k3","path":"rooms/Room_k3/Room_k3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
