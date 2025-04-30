@@ -45,17 +45,6 @@ if (pick == 5)
 
 
 
-/*
-if (pick == 0)
-{
-	room_goto(Room6);
-}
-
-
-
-
-
-
 
 /*
 

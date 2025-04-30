@@ -1,3 +1,0 @@
-restAreaIncrease = 0;
-
-

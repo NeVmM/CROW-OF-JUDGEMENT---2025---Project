@@ -17,7 +17,6 @@
     {"name":"inst_3C3F4274","path":"rooms/RestArea/RestArea.yy",},
     {"name":"inst_65D5A690","path":"rooms/RestArea/RestArea.yy",},
     {"name":"inst_5026697B","path":"rooms/RestArea/RestArea.yy",},
-    {"name":"inst_4F3AF444","path":"rooms/RestArea/RestArea.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -40,7 +39,6 @@
         {"$GMRInstance":"v2","%Name":"inst_3097ED90","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3097ED90","objectId":{"name":"oCrowWeapon","path":"objects/oCrowWeapon/oCrowWeapon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":30.0,"y":-30.0,},
         {"$GMRInstance":"v2","%Name":"inst_3C3F4274","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C3F4274","objectId":{"name":"oParticleCrow","path":"objects/oParticleCrow/oParticleCrow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":30.0,"y":-60.0,},
         {"$GMRInstance":"v2","%Name":"inst_65D5A690","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65D5A690","objectId":{"name":"oRestAreaText","path":"objects/oRestAreaText/oRestAreaText.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":210.0,"y":150.0,},
-        {"$GMRInstance":"v2","%Name":"inst_4F3AF444","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F3AF444","objectId":{"name":"oRestAreaResetLimit","path":"objects/oRestAreaResetLimit/oRestAreaResetLimit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":60.0,"y":-60.0,},
       ],"layers":[],"name":"Objects_Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.01",},
