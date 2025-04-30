@@ -21,3 +21,9 @@ camVerticalBias = -15; //Adjust to change camera Y-Axis to player
 shake_amount = 0;
 shake_timer = 0;
 
+
+camera = view_camera[0];
+
+x = room_width /2;
+y = 0;
+

@@ -11,9 +11,9 @@ else
 		var pick = irandom(2);
 		oRoomLimiter.roomLimit += 1;
 		
-		if (pick == 0) room_goto(TestForest1);
-		if (pick == 1) room_goto(TestForest2);
-		if (pick == 2) room_goto(TestForest3);
+		if (pick == 0) room_goto(Hell1);
+		//if (pick == 1) room_goto(TestForest2);
+		//if (pick == 2) room_goto(TestForest3);
 	}
 	
 	else if (oRoomLimiter.restAreaLimit == 1)

@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"CrowOfJudgement_Editing_March-2025",
   "resources":[
@@ -73,6 +73,7 @@
     {"id":{"name":"oEnemySlimeAtkFX","path":"objects/oEnemySlimeAtkFX/oEnemySlimeAtkFX.yy",},},
     {"id":{"name":"oEnemySlimeDead","path":"objects/oEnemySlimeDead/oEnemySlimeDead.yy",},},
     {"id":{"name":"oHazard","path":"objects/oHazard/oHazard.yy",},},
+    {"id":{"name":"oParallax","path":"objects/oParallax/oParallax.yy",},},
     {"id":{"name":"oParticleCrow","path":"objects/oParticleCrow/oParticleCrow.yy",},},
     {"id":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},},
     {"id":{"name":"oRestAreaText","path":"objects/oRestAreaText/oRestAreaText.yy",},},
@@ -140,6 +141,11 @@
     {"id":{"name":"Sprite_Roll","path":"sprites/Sprite_Roll/Sprite_Roll.yy",},},
     {"id":{"name":"Sprite_Run","path":"sprites/Sprite_Run/Sprite_Run.yy",},},
     {"id":{"name":"Sprite26","path":"sprites/Sprite26/Sprite26.yy",},},
+    {"id":{"name":"Sprite51","path":"sprites/Sprite51/Sprite51.yy",},},
+    {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},},
+    {"id":{"name":"Sprite53","path":"sprites/Sprite53/Sprite53.yy",},},
+    {"id":{"name":"Sprite54","path":"sprites/Sprite54/Sprite54.yy",},},
+    {"id":{"name":"Sprite55","path":"sprites/Sprite55/Sprite55.yy",},},
     {"id":{"name":"sSettingsA","path":"sprites/sSettingsA/sSettingsA.yy",},},
     {"id":{"name":"sSettingsB","path":"sprites/sSettingsB/sSettingsB.yy",},},
     {"id":{"name":"sSpikeHazard","path":"sprites/sSpikeHazard/sSpikeHazard.yy",},},

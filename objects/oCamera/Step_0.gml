@@ -85,3 +85,10 @@ if (shake_timer > 0) {
     var shake_y = random_range(-shake_amount, shake_amount);
     camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]) + shake_x, camera_get_view_y(view_camera[0]) + shake_y);
 }
+
+//#region PARALLAX
+
+//camera_set_view_pos(camera, x , y);
+//x = lerp(x, x + 50, 0.08)
+
+//#endregion
