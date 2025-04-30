@@ -12,6 +12,10 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Actions_Controls","folderPath":"folders/Actions_Controls.yy","name":"Actions_Controls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BackgroundLayers","folderPath":"folders/BackgroundLayers.yy","name":"BackgroundLayers","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Forest","folderPath":"folders/BackgroundLayers/Forest.yy","name":"Forest","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Heaven","folderPath":"folders/BackgroundLayers/Heaven.yy","name":"Heaven","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Hell","folderPath":"folders/BackgroundLayers/Hell.yy","name":"Hell","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Overgrown","folderPath":"folders/BackgroundLayers/Overgrown.yy","name":"Overgrown","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Blocks","folderPath":"folders/Blocks.yy","name":"Blocks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BlockSprites","folderPath":"folders/Blocks/BlockSprites.yy","name":"BlockSprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BlockTileSets","folderPath":"folders/Blocks/BlockTileSets.yy","name":"BlockTileSets","resourceType":"GMFolder","resourceVersion":"2.0",},
