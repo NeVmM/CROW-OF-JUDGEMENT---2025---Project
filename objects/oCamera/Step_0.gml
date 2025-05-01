@@ -86,11 +86,16 @@ if (shake_timer > 0) {
     camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]) + shake_x, camera_get_view_y(view_camera[0]) + shake_y);
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 
 
 
 
 
+<<<<<<< Updated upstream
 
 
 
@@ -100,6 +105,12 @@ if (shake_timer > 0) {
 
 #region camera position & stuff
 
+=======
+// PARALLAX OUTPUT below
+
+
+
+>>>>>>> Stashed changes
 // Get camera position
 var camX = camera_get_view_x(view_camera[0]);
 var camY = camera_get_view_y(view_camera[0]);
@@ -110,7 +121,10 @@ var parallaxFactor = 0.5;
 // Calculate how far the camera has moved horizontally
 var parallaxX = camX * parallaxFactor;
 
+<<<<<<< Updated upstream
 #endregion
+=======
+>>>>>>> Stashed changes
 
 #region FOREST PARALLAX
 
@@ -139,6 +153,7 @@ if (layer_exists("inner_tree"))
     layer_y("inner_tree", camY + offsetY_inner_tree); // Lock vertically with the camera
 }
 
+<<<<<<< Updated upstream
 
 
 
@@ -175,3 +190,14 @@ if (layer_exists("inner_cloud"))
 }
 
 #endregion
+=======
+#endregion
+=======
+//#region PARALLAX
+
+//camera_set_view_pos(camera, x , y);
+//x = lerp(x, x + 50, 0.08)
+
+//#endregion
+>>>>>>> c8585dbd07324d4d872587c82b14388b61bd9bfb
+>>>>>>> Stashed changes

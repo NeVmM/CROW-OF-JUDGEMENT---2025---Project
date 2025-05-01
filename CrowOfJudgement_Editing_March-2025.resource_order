@@ -18,6 +18,7 @@
     {"name":"EnemySlime","order":3,"path":"folders/Characters_and_Spike/Enemies/EnemySlime.yy",},
     {"name":"oEnemySludge","order":5,"path":"folders/Characters_and_Spike/Enemies/oEnemySludge.yy",},
     {"name":"Traps_Spikes","order":2,"path":"folders/Characters_and_Spike/Traps_Spikes.yy",},
+    {"name":"ParallaxBG","order":11,"path":"folders/ParallaxBG.yy",},
     {"name":"Main Menu","order":10,"path":"folders/Main Menu.yy",},
     {"name":"Music","order":6,"path":"folders/Music.yy",},
     {"name":"ParallaxBG","order":11,"path":"folders/ParallaxBG.yy",},
@@ -66,10 +67,15 @@
     {"name":"TestForest3","order":6,"path":"rooms/TestForest3/TestForest3.yy",},
     {"name":"TutorialRoom","order":15,"path":"rooms/TutorialRoom/TutorialRoom.yy",},
     {"name":"snd_armsattack","order":2,"path":"sounds/snd_armsattack/snd_armsattack.yy",},
+<<<<<<< Updated upstream
     {"name":"Forest_InnerCloud","order":5,"path":"sprites/Forest_InnerCloud/Forest_InnerCloud.yy",},
     {"name":"Forest_InnerTree","order":3,"path":"sprites/Forest_InnerTree/Forest_InnerTree.yy",},
     {"name":"Forest_Mountains","order":1,"path":"sprites/Forest_Mountains/Forest_Mountains.yy",},
     {"name":"Forest_OuterCloud","order":4,"path":"sprites/Forest_OuterCloud/Forest_OuterCloud.yy",},
+=======
+    {"name":"Forest_InnerTree","order":3,"path":"sprites/Forest_InnerTree/Forest_InnerTree.yy",},
+    {"name":"Forest_Mountains","order":1,"path":"sprites/Forest_Mountains/Forest_Mountains.yy",},
+>>>>>>> Stashed changes
     {"name":"Forest_OuterTree","order":2,"path":"sprites/Forest_OuterTree/Forest_OuterTree.yy",},
     {"name":"sContinueA","order":3,"path":"sprites/sContinueA/sContinueA.yy",},
     {"name":"sContinueB","order":2,"path":"sprites/sContinueB/sContinueB.yy",},
