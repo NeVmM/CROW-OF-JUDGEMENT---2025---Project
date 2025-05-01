@@ -280,6 +280,7 @@
     {"name":"inst_7E1A319C","path":"rooms/Hell1/Hell1.yy",},
     {"name":"inst_765E41B2","path":"rooms/Hell1/Hell1.yy",},
     {"name":"inst_4B126775","path":"rooms/Hell1/Hell1.yy",},
+    {"name":"inst_7261F5F4","path":"rooms/Hell1/Hell1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -626,6 +627,7 @@
         {"$GMRInstance":"v2","%Name":"inst_71BFC809","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71BFC809","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":2.0,"x":1320.0,"y":1380.0,},
         {"$GMRInstance":"v2","%Name":"inst_51F10F06","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_51F10F06","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.0,"scaleY":2.0,"x":1440.0,"y":1140.0,},
         {"$GMRInstance":"v2","%Name":"inst_188570A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_188570A2","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":2.0,"x":1500.0,"y":1200.0,},
+        {"$GMRInstance":"v2","%Name":"inst_7261F5F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7261F5F4","objectId":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":360.0,"y":1380.0,},
       ],"layers":[],"name":"Objects_Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Parallax","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_4B126775","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B126775","objectId":{"name":"oParallax","path":"objects/oParallax/oParallax.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":-32.0,},

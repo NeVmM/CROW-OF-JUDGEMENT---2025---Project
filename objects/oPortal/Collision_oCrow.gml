@@ -24,6 +24,15 @@ else
 		oRoomLimiter.roomLimit += 1;
 		
 		//if (pick == 0) room_goto(Caverns1);
+		if (pick == 0) room_goto(Heavens1);
+	}
+	
+	else if (oRoomLimiter.restAreaLimit == 2)
+	{
+		var pick = irandom(0);
+		oRoomLimiter.roomLimit += 1;
+		
+		//if (pick == 0) room_goto(Caverns1);
 		if (pick == 0) room_goto(Hell1);
 	}
 	

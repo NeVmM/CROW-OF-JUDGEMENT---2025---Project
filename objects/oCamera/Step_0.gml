@@ -175,3 +175,55 @@ if (layer_exists("inner_cloud"))
 }
 
 #endregion
+
+#region HEAVENS PARALLAX
+
+if (layer_exists("outer_cloud")) 
+{
+	var parallaxX_outer_cloud = camX * 0.7; // Moves at 50% of camera
+    var offsetY_outer_cloud = 10;           // Optional Y offset
+    layer_x("outer_cloud", camX + (parallaxX_outer_cloud - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("outer_cloud", camY + offsetY_outer_cloud); // Lock vertically with the camera
+}
+
+if (layer_exists("inner_cloud")) 
+{
+	var parallaxX_inner_cloud = camX * 0.6; // Moves at 50% of camera
+    var offsetY_inner_cloud = 10;           // Optional Y offset
+    layer_x("inner_cloud", camX + (parallaxX_inner_cloud - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("inner_cloud", camY + offsetY_inner_cloud); // Lock vertically with the camera
+}
+
+if (layer_exists("outer_mountain")) 
+{
+	var parallaxX_outer_mountain = camX * 0.5; // Moves at 50% of camera
+    var offsetY_outer_mountain = 10;           // Optional Y offset
+    layer_x("outer_mountain", camX + (parallaxX_outer_mountain - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("outer_mountain", camY + offsetY_outer_mountain); // Lock vertically with the camera
+}
+
+if (layer_exists("inner_mountain")) 
+{
+	var parallaxX_inner_mountain = camX * 0.4; // Moves at 50% of camera
+    var offsetY_inner_mountain = 10;           // Optional Y offset
+    layer_x("inner_mountain", camX + (parallaxX_inner_mountain - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("inner_mountain", camY + offsetY_inner_mountain); // Lock vertically with the camera
+}
+
+if (layer_exists("debris")) 
+{
+	var parallaxX_debris = camX * 0.3; // Moves at 50% of camera
+    var offsetY_debris = 10;           // Optional Y offset
+    layer_x("debris", camX + (parallaxX_debris - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("debris", camY + offsetY_debris); // Lock vertically with the camera
+}
+
+if (layer_exists("tree")) 
+{
+	var parallaxX_tree = camX * 0.2; // Moves at 50% of camera
+    var offsetY_tree = 10;           // Optional Y offset
+    layer_x("tree", camX + (parallaxX_tree - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("tree", camY + offsetY_tree); // Lock vertically with the camera
+}
+
+#endregion

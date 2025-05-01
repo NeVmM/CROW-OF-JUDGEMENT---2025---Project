@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"ParallaxBG",
-    "path":"folders/ParallaxBG.yy",
+    "name":"ForestParallax",
+    "path":"folders/ParallaxBG/ForestParallax.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
