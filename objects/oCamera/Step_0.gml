@@ -86,17 +86,19 @@ if (shake_timer > 0) {
     camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]) + shake_x, camera_get_view_y(view_camera[0]) + shake_y);
 }
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 
 
 
 
 
-// PARALLAX OUTPUT below
 
 
+
+
+// PARALLAX OUTPUT below  ==============================================================
+
+
+#region camera position & stuff
 
 // Get camera position
 var camX = camera_get_view_x(view_camera[0]);
@@ -108,6 +110,7 @@ var parallaxFactor = 0.5;
 // Calculate how far the camera has moved horizontally
 var parallaxX = camX * parallaxFactor;
 
+#endregion
 
 #region FOREST PARALLAX
 
@@ -136,17 +139,39 @@ if (layer_exists("inner_tree"))
     layer_y("inner_tree", camY + offsetY_inner_tree); // Lock vertically with the camera
 }
 
+
+
+
+// At the top of the object, define scroll offsets
+if (!variable_global_exists("cloud_scroll_outer")) global.cloud_scroll_outer = 0;
+if (!variable_global_exists("cloud_scroll_inner")) global.cloud_scroll_inner = 0;
+
+
+// === CLOUDS (Independent scrolling) ===
+if (!variable_global_exists("cloud_scroll_outer")) global.cloud_scroll_outer = 0;
+if (!variable_global_exists("cloud_scroll_inner")) global.cloud_scroll_inner = 0;
+
+// Move the clouds continuously
+global.cloud_scroll_outer += 0.05; // Adjust speed
+global.cloud_scroll_inner += 0.025;
+
+// Wrap if they scroll too far (optional)
+if (global.cloud_scroll_outer > 10000) global.cloud_scroll_outer = 0;
+if (global.cloud_scroll_inner > 10000) global.cloud_scroll_inner = 0;
+
+// Apply to cloud layers
+if (layer_exists("outer_cloud")) 
+{
+    var offsetY_outer_cloud = 30;
+    layer_x("outer_cloud", global.cloud_scroll_outer);
+    layer_y("outer_cloud", camY + offsetY_outer_cloud);
+}
+
+if (layer_exists("inner_cloud")) 
+{
+    var offsetY_inner_cloud = 30;
+    layer_x("inner_cloud", global.cloud_scroll_inner);
+    layer_y("inner_cloud", camY + offsetY_inner_cloud);
+}
+
 #endregion
-=======
->>>>>>> Stashed changes
-//#region PARALLAX
-
-//camera_set_view_pos(camera, x , y);
-//x = lerp(x, x + 50, 0.08)
-
-<<<<<<< Updated upstream
-//#endregion
-=======
-//#endregion
->>>>>>> c8585dbd07324d4d872587c82b14388b61bd9bfb
->>>>>>> Stashed changes
