@@ -86,9 +86,67 @@ if (shake_timer > 0) {
     camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]) + shake_x, camera_get_view_y(view_camera[0]) + shake_y);
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+
+
+
+
+
+// PARALLAX OUTPUT below
+
+
+
+// Get camera position
+var camX = camera_get_view_x(view_camera[0]);
+var camY = camera_get_view_y(view_camera[0]);
+
+// Adjust this value for parallax depth (e.g., 0.5 = half speed)
+var parallaxFactor = 0.5;
+
+// Calculate how far the camera has moved horizontally
+var parallaxX = camX * parallaxFactor;
+
+
+#region FOREST PARALLAX
+
+// Position the parallax layer relative to the camera view
+if (layer_exists("mountains")) 
+{
+	var parallaxX_mountains = camX * 0.7; // Moves at 50% of camera
+    var offsetY_mountains = 50;           // Optional Y offset
+    layer_x("mountains", camX + (parallaxX_mountains - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("mountains", camY + offsetY_mountains); // Lock vertically with the camera
+}
+	
+if (layer_exists("outer_tree")) 
+{
+	var parallaxX_outer_tree = camX * 0.6; // Moves at 50% of camera
+    var offsetY_outer_tree = 30;           // Optional Y offset
+    layer_x("outer_tree", camX + (parallaxX_outer_tree - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("outer_tree", camY + offsetY_outer_tree); // Lock vertically with the camera
+}
+
+if (layer_exists("inner_tree")) 
+{
+	var parallaxX_inner_tree = camX * 0.4; // Moves at 50% of camera
+    var offsetY_inner_tree = 10;           // Optional Y offset
+    layer_x("inner_tree", camX + (parallaxX_inner_tree - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("inner_tree", camY + offsetY_inner_tree); // Lock vertically with the camera
+}
+
+#endregion
+=======
+>>>>>>> Stashed changes
 //#region PARALLAX
 
 //camera_set_view_pos(camera, x , y);
 //x = lerp(x, x + 50, 0.08)
 
+<<<<<<< Updated upstream
 //#endregion
+=======
+//#endregion
+>>>>>>> c8585dbd07324d4d872587c82b14388b61bd9bfb
+>>>>>>> Stashed changes

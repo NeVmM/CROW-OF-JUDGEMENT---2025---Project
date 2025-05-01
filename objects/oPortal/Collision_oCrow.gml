@@ -1,11 +1,13 @@
 if (oRoomLimiter.roomLimit >= oRoomLimiter.maxTeleport)
 {
+	//teleports to restarea
     room_goto(RestArea);
 	oRoomLimiter.roomLimit = 0;
 	oRoomLimiter.restAreaLimit++;
 }
 else
 {
+	//stages in order but randomized picker
 	if (oRoomLimiter.restAreaLimit == 0)
 	{
 		var pick = irandom(2);
@@ -18,12 +20,11 @@ else
 	
 	else if (oRoomLimiter.restAreaLimit == 1)
 	{
-		var pick = irandom(2);
+		var pick = irandom(1);
 		oRoomLimiter.roomLimit += 1;
 		
-		if (pick == 0) room_goto(Heavens1);
-		if (pick == 1) room_goto(Heavens2);
-		if (pick == 2) room_goto(Heavens3);
+		if (pick == 0) room_goto(Caverns1);
+		if (pick == 1) room_goto(Hell1);
 	}
 	
 	else
