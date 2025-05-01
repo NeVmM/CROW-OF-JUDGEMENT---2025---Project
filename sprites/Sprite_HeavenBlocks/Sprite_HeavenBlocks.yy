@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"Sprite_HeavenBlocks",
   "bboxMode":0,
-  "bbox_bottom":179,
+  "bbox_bottom":329,
   "bbox_left":0,
   "bbox_right":363,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1acd8ca0-7e7e-4b12-aa63-df42dd0a69a6","name":"1acd8ca0-7e7e-4b12-aa63-df42dd0a69a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f2267ed3-453a-4804-b9c1-af014693601e","name":"f2267ed3-453a-4804-b9c1-af014693601e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":512,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0d20b569-2354-4b1f-890f-4242ab7f3b19","blendMode":0,"displayName":"default","isLocked":false,"name":"0d20b569-2354-4b1f-890f-4242ab7f3b19","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"fabe4d24-e6d4-45b1-9443-ac0c80d3df5b","blendMode":0,"displayName":"default","isLocked":false,"name":"fabe4d24-e6d4-45b1-9443-ac0c80d3df5b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Sprite_HeavenBlocks",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1acd8ca0-7e7e-4b12-aa63-df42dd0a69a6","path":"sprites/Sprite_HeavenBlocks/Sprite_HeavenBlocks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"77ddd673-3430-468c-9b7a-82d506071466","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f2267ed3-453a-4804-b9c1-af014693601e","path":"sprites/Sprite_HeavenBlocks/Sprite_HeavenBlocks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2cea5c3c-8236-4971-a6da-0bf146bed883","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
