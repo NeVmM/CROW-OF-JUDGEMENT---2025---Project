@@ -35,6 +35,7 @@
     {"$GMFolder":"","%Name":"Music","folderPath":"folders/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ParallaxBG","folderPath":"folders/ParallaxBG.yy","name":"ParallaxBG","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ForestParallax","folderPath":"folders/ParallaxBG/ForestParallax.yy","name":"ForestParallax","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"OvergrownParallax","folderPath":"folders/ParallaxBG/OvergrownParallax.yy","name":"OvergrownParallax","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"HeavensParallax","folderPath":"folders/ParallaxBG/HeavensParallax.yy","name":"HeavensParallax","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Room Switcher","folderPath":"folders/Rooms/Room Switcher.yy","name":"Room Switcher","resourceType":"GMFolder","resourceVersion":"2.0",},
