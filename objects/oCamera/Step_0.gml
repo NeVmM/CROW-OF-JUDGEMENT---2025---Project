@@ -87,6 +87,10 @@ if (shake_timer > 0) {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 =======
 <<<<<<< HEAD
 >>>>>>> Stashed changes
@@ -95,6 +99,7 @@ if (shake_timer > 0) {
 
 
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
 
@@ -106,10 +111,15 @@ if (shake_timer > 0) {
 #region camera position & stuff
 
 =======
+=======
+>>>>>>> Stashed changes
 // PARALLAX OUTPUT below
 
 
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 // Get camera position
 var camX = camera_get_view_x(view_camera[0]);
@@ -122,7 +132,10 @@ var parallaxFactor = 0.5;
 var parallaxX = camX * parallaxFactor;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #endregion
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 
@@ -153,6 +166,7 @@ if (layer_exists("inner_tree"))
     layer_y("inner_tree", camY + offsetY_inner_tree); // Lock vertically with the camera
 }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
 
@@ -191,6 +205,8 @@ if (layer_exists("inner_cloud"))
 
 #endregion
 =======
+=======
+>>>>>>> Stashed changes
 #endregion
 =======
 //#region PARALLAX
@@ -200,4 +216,7 @@ if (layer_exists("inner_cloud"))
 
 //#endregion
 >>>>>>> c8585dbd07324d4d872587c82b14388b61bd9bfb
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

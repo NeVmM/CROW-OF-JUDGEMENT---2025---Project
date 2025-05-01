@@ -68,10 +68,15 @@
     {"name":"TutorialRoom","order":15,"path":"rooms/TutorialRoom/TutorialRoom.yy",},
     {"name":"snd_armsattack","order":2,"path":"sounds/snd_armsattack/snd_armsattack.yy",},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"name":"Forest_InnerCloud","order":5,"path":"sprites/Forest_InnerCloud/Forest_InnerCloud.yy",},
     {"name":"Forest_InnerTree","order":3,"path":"sprites/Forest_InnerTree/Forest_InnerTree.yy",},
     {"name":"Forest_Mountains","order":1,"path":"sprites/Forest_Mountains/Forest_Mountains.yy",},
     {"name":"Forest_OuterCloud","order":4,"path":"sprites/Forest_OuterCloud/Forest_OuterCloud.yy",},
+=======
+    {"name":"Forest_InnerTree","order":3,"path":"sprites/Forest_InnerTree/Forest_InnerTree.yy",},
+    {"name":"Forest_Mountains","order":1,"path":"sprites/Forest_Mountains/Forest_Mountains.yy",},
+>>>>>>> Stashed changes
 =======
     {"name":"Forest_InnerTree","order":3,"path":"sprites/Forest_InnerTree/Forest_InnerTree.yy",},
     {"name":"Forest_Mountains","order":1,"path":"sprites/Forest_Mountains/Forest_Mountains.yy",},

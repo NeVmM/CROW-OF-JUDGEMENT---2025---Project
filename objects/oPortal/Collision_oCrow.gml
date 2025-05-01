@@ -14,7 +14,11 @@ else
 		oRoomLimiter.roomLimit += 1;
 		
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		if (pick == 0) room_goto(TestForest1);
+=======
+		if (pick == 0) room_goto(Hell1);
+>>>>>>> Stashed changes
 =======
 		if (pick == 0) room_goto(Hell1);
 >>>>>>> Stashed changes
@@ -25,11 +29,19 @@ else
 	else if (oRoomLimiter.restAreaLimit == 1)
 	{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		var pick = irandom(0);
 		oRoomLimiter.roomLimit += 1;
 		
 		//if (pick == 0) room_goto(Caverns1);
 		if (pick == 0) room_goto(Hell1);
+=======
+		var pick = irandom(1);
+		oRoomLimiter.roomLimit += 1;
+		
+		if (pick == 0) room_goto(Caverns1);
+		if (pick == 1) room_goto(Hell1);
+>>>>>>> Stashed changes
 =======
 		var pick = irandom(1);
 		oRoomLimiter.roomLimit += 1;
