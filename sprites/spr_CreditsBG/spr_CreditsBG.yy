@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"BackgroundLayers",
-    "path":"folders/BackgroundLayers.yy",
+    "name":"Main Menu",
+    "path":"folders/Main Menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
