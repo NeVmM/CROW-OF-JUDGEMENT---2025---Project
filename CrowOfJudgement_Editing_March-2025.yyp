@@ -12,9 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Actions_Controls","folderPath":"folders/Actions_Controls.yy","name":"Actions_Controls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BackgroundLayers","folderPath":"folders/BackgroundLayers.yy","name":"BackgroundLayers","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Forest","folderPath":"folders/BackgroundLayers/Forest.yy","name":"Forest","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Hell","folderPath":"folders/BackgroundLayers/Hell.yy","name":"Hell","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Overgrown","folderPath":"folders/BackgroundLayers/Overgrown.yy","name":"Overgrown","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"HellParallax","folderPath":"folders/ParallaxBG/HellParallax.yy","name":"HellParallax","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Blocks","folderPath":"folders/Blocks.yy","name":"Blocks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BlockSprites","folderPath":"folders/Blocks/BlockSprites.yy","name":"BlockSprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Heaven_Design","folderPath":"folders/Blocks/BlockSprites/Heaven_Design.yy","name":"Heaven_Design","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -30,7 +28,6 @@
     {"$GMFolder":"","%Name":"EnemySkelly","folderPath":"folders/Characters_and_Spike/Enemies/EnemySkelly.yy","name":"EnemySkelly","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"EnemySlime","folderPath":"folders/Characters_and_Spike/Enemies/EnemySlime.yy","name":"EnemySlime","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Traps_Spikes","folderPath":"folders/Characters_and_Spike/Traps_Spikes.yy","name":"Traps_Spikes","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Tutorial Text","folderPath":"folders/Tutorial Text.yy","name":"Tutorial Text","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Main Menu","folderPath":"folders/Main Menu.yy","name":"Main Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Music","folderPath":"folders/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ParallaxBG","folderPath":"folders/ParallaxBG.yy","name":"ParallaxBG","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -46,6 +43,7 @@
     {"$GMFolder":"","%Name":"Overgrown","folderPath":"folders/Rooms/Overgrown.yy","name":"Overgrown","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Test Objects","folderPath":"folders/Test Objects.yy","name":"Test Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Tutorial Text","folderPath":"folders/Tutorial Text.yy","name":"Tutorial Text","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
@@ -54,7 +52,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"CrowOfJudgement_Editing_March-2025",
   "resources":[

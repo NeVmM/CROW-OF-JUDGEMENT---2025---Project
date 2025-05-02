@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Hell",
-    "path":"folders/BackgroundLayers/Hell.yy",
+    "name":"HellParallax",
+    "path":"folders/ParallaxBG/HellParallax.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
