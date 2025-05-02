@@ -218,8 +218,8 @@
   ],
   "name":"Heavens2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Heavens",
+    "path":"folders/Rooms/Heavens.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

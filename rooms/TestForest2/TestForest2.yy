@@ -94,8 +94,8 @@
   ],
   "name":"TestForest2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Forest",
+    "path":"folders/Rooms/Forest.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

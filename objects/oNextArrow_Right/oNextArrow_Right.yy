@@ -6,8 +6,8 @@
   "name":"oNextArrow_Right",
   "overriddenProperties":[],
   "parent":{
-    "name":"Room Switcher",
-    "path":"folders/Rooms/Room Switcher.yy",
+    "name":"aRoom Switcher",
+    "path":"folders/Rooms/aRoom Switcher.yy",
   },
   "parentObjectId":null,
   "persistent":false,

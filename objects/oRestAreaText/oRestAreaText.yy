@@ -8,8 +8,8 @@
   "name":"oRestAreaText",
   "overriddenProperties":[],
   "parent":{
-    "name":"Test Objects",
-    "path":"folders/Test Objects.yy",
+    "name":"CrowOfJudgement_Editing_March-2025",
+    "path":"CrowOfJudgement_Editing_March-2025.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

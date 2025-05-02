@@ -659,8 +659,8 @@
   ],
   "name":"Caverns1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Caverns",
+    "path":"folders/Rooms/Caverns.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

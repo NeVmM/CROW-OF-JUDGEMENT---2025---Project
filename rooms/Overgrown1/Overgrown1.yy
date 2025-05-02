@@ -259,8 +259,8 @@
   ],
   "name":"Overgrown1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Overgrown",
+    "path":"folders/Rooms/Overgrown.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

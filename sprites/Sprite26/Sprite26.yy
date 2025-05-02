@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Room Switcher",
-    "path":"folders/Rooms/Room Switcher.yy",
+    "name":"aRoom Switcher",
+    "path":"folders/Rooms/aRoom Switcher.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

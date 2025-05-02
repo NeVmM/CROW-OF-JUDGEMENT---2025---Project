@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oNextArrow_Left",
-  "eventList":[],
+  "%Name":"TutorialJump",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oNextArrow_Left",
+  "name":"TutorialJump",
   "overriddenProperties":[],
   "parent":{
-    "name":"aRoom Switcher",
-    "path":"folders/Rooms/aRoom Switcher.yy",
+    "name":"Tutorial Text",
+    "path":"folders/Tutorial Text.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite75",
-    "path":"sprites/Sprite75/Sprite75.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

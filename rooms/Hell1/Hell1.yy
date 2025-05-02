@@ -651,8 +651,8 @@
   ],
   "name":"Hell1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Hell",
+    "path":"folders/Rooms/Hell.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
