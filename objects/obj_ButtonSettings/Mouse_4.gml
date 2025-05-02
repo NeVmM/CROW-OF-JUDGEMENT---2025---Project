@@ -3,6 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
+sprite_index = sSettingsA;
 
-room_goto(TestForest1);
 

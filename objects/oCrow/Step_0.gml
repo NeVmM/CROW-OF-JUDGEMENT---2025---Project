@@ -463,7 +463,7 @@ if (health <= 0)
 
 if (exitGame)
 {
-	game_end();
+	room_goto(rm_MainMenu);
 }
 
 #endregion

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Main Menu",
-    "path":"folders/Main Menu.yy",
+    "name":"Credits",
+    "path":"folders/Main Menu/Credits.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

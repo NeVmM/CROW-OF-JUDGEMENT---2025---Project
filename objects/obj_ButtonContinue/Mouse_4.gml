@@ -1,5 +1,5 @@
 // Inherit the parent event
 event_inherited();
+sprite_index = sContinueA;
 
-room_goto(TestForest1);
 

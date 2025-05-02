@@ -284,6 +284,7 @@
     {"name":"inst_2EDF4B18","path":"rooms/Hell1/Hell1.yy",},
     {"name":"inst_45EC5A03","path":"rooms/Hell1/Hell1.yy",},
     {"name":"inst_6F8A92F1","path":"rooms/Hell1/Hell1.yy",},
+    {"name":"inst_38AF4191","path":"rooms/Hell1/Hell1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -335,6 +336,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_LavaBlocks","path":"tilesets/Tile_LavaBlocks/Tile_LavaBlocks.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Designs_Above","depth":100,"effectEnabled":true,"effectType":null,"gridX":15,"gridY":30,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_45EC5A03","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45EC5A03","objectId":{"name":"obj_FireLamp","path":"objects/obj_FireLamp/obj_FireLamp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.6666666,"x":1035.0,"y":870.0,},
+        {"$GMRInstance":"v2","%Name":"inst_38AF4191","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38AF4191","objectId":{"name":"obj_Music","path":"objects/obj_Music/obj_Music.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":135.0,"y":1320.0,},
       ],"layers":[],"name":"Designs_Above","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Weapon","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_33AE870E_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33AE870E_1","objectId":{"name":"oCrowWeapon","path":"objects/oCrowWeapon/oCrowWeapon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":64.0,},

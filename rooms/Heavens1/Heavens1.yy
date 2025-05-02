@@ -74,6 +74,7 @@
     {"name":"inst_6688B8B1","path":"rooms/Heavens1/Heavens1.yy",},
     {"name":"inst_139A343E","path":"rooms/Heavens1/Heavens1.yy",},
     {"name":"inst_4E2ABEF8","path":"rooms/Heavens1/Heavens1.yy",},
+    {"name":"inst_517E432A","path":"rooms/Heavens1/Heavens1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -274,6 +275,7 @@
         {"$GMRInstance":"v2","%Name":"inst_7ECC99F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7ECC99F2","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4290.0,"y":870.0,},
         {"$GMRInstance":"v2","%Name":"inst_6688B8B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6688B8B1","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":148.0,"scaleY":1.0,"x":300.0,"y":-30.0,},
         {"$GMRInstance":"v2","%Name":"inst_139A343E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_139A343E","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":9.0,"x":-30.0,"y":0.0,},
+        {"$GMRInstance":"v2","%Name":"inst_517E432A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_517E432A","objectId":{"name":"obj_Music","path":"objects/obj_Music/obj_Music.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2070.0,"y":-90.0,},
       ],"layers":[],"name":"Objects_Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Backdrop","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backdrop","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":36,"SerialiseWidth":167,"TileCompressedData":[
           -17,-2147483648,1,139,-7,-2147483648,14,241,242,243,244,245,246,247,248,249,250,251,252,253,254,-111,
