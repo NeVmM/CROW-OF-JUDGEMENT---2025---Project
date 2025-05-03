@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Heaven_Design","folderPath":"folders/Blocks/BlockSprites/Heaven_Design.yy","name":"Heaven_Design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hell_Design","folderPath":"folders/Blocks/BlockSprites/Hell_Design.yy","name":"Hell_Design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BlockTileSets","folderPath":"folders/Blocks/BlockTileSets.yy","name":"BlockTileSets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"HeavenDesigns","folderPath":"folders/Blocks/BlockTileSets/HeavenDesigns.yy","name":"HeavenDesigns","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Camera","folderPath":"folders/Camera.yy","name":"Camera","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Characters_and_Spike","folderPath":"folders/Characters_and_Spike.yy","name":"Characters_and_Spike","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Crow_Player","folderPath":"folders/Characters_and_Spike/Crow_Player.yy","name":"Crow_Player","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -59,7 +60,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"CrowOfJudgement_Editing_March-2025",
   "resources":[
@@ -126,6 +127,8 @@
     {"id":{"name":"Heavens1","path":"rooms/Heavens1/Heavens1.yy",},},
     {"id":{"name":"Heavens2","path":"rooms/Heavens2/Heavens2.yy",},},
     {"id":{"name":"Heavens3","path":"rooms/Heavens3/Heavens3.yy",},},
+    {"id":{"name":"Heavens4","path":"rooms/Heavens4/Heavens4.yy",},},
+    {"id":{"name":"Heavens5","path":"rooms/Heavens5/Heavens5.yy",},},
     {"id":{"name":"Hell1","path":"rooms/Hell1/Hell1.yy",},},
     {"id":{"name":"Overgrown1","path":"rooms/Overgrown1/Overgrown1.yy",},},
     {"id":{"name":"RestArea","path":"rooms/RestArea/RestArea.yy",},},
@@ -226,6 +229,8 @@
     {"id":{"name":"Test_Block","path":"sprites/Test_Block/Test_Block.yy",},},
     {"id":{"name":"Tile_GrassBlock","path":"tilesets/Tile_GrassBlock/Tile_GrassBlock.yy",},},
     {"id":{"name":"Tile_HeavenBlock","path":"tilesets/Tile_HeavenBlock/Tile_HeavenBlock.yy",},},
+    {"id":{"name":"Tile_HeavenDesign","path":"tilesets/Tile_HeavenDesign/Tile_HeavenDesign.yy",},},
+    {"id":{"name":"Tile_HeavenDesign2","path":"tilesets/Tile_HeavenDesign2/Tile_HeavenDesign2.yy",},},
     {"id":{"name":"Tile_LavaBlocks","path":"tilesets/Tile_LavaBlocks/Tile_LavaBlocks.yy",},},
     {"id":{"name":"Tile_NoLavaBlocks","path":"tilesets/Tile_NoLavaBlocks/Tile_NoLavaBlocks.yy",},},
     {"id":{"name":"Tile_OvergrownBlock","path":"tilesets/Tile_OvergrownBlock/Tile_OvergrownBlock.yy",},},
@@ -246,6 +251,8 @@
     {"roomId":{"name":"rm_Settings","path":"rooms/rm_Settings/rm_Settings.yy",},},
     {"roomId":{"name":"Forest1","path":"rooms/Forest1/Forest1.yy",},},
     {"roomId":{"name":"Forest2","path":"rooms/Forest2/Forest2.yy",},},
+    {"roomId":{"name":"Heavens4","path":"rooms/Heavens4/Heavens4.yy",},},
+    {"roomId":{"name":"Heavens5","path":"rooms/Heavens5/Heavens5.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
