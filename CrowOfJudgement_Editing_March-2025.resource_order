@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings":[
     {"name":"Actions_Controls","order":1,"path":"folders/Actions_Controls.yy",},
-    {"name":"TemporaryBackground_TutorialBG","order":8,"path":"folders/TemporaryBackground_TutorialBG.yy",},
     {"name":"Blocks","order":7,"path":"folders/Blocks.yy",},
     {"name":"Heaven_Design","order":4,"path":"folders/Blocks/BlockSprites/Heaven_Design.yy",},
     {"name":"Hell_Design","order":5,"path":"folders/Blocks/BlockSprites/Hell_Design.yy",},
@@ -35,6 +34,7 @@
     {"name":"Tutorial","order":25,"path":"folders/Rooms/Tutorial.yy",},
     {"name":"Tutorial Text","order":2,"path":"folders/Rooms/Tutorial/Tutorial Text.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
+    {"name":"TemporaryBackground_TutorialBG","order":8,"path":"folders/TemporaryBackground_TutorialBG.yy",},
     {"name":"Test Objects","order":3,"path":"folders/Test Objects.yy",},
   ],
   "ResourceOrderSettings":[
