@@ -8,8 +8,8 @@
   "name":"oTutorialControlsTEXT",
   "overriddenProperties":[],
   "parent":{
-    "name":"CrowOfJudgement_Editing_March-2025",
-    "path":"CrowOfJudgement_Editing_March-2025.yyp",
+    "name":"Tutorial",
+    "path":"folders/Rooms/Tutorial.yy",
   },
   "parentObjectId":null,
   "persistent":false,

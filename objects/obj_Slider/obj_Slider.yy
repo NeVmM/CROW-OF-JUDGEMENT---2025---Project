@@ -15,7 +15,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Settings",
-    "path":"folders/Main Menu/Settings.yy",
+    "path":"folders/Main Menu_Sprites and Objects/Settings.yy",
   },
   "parentObjectId":null,
   "persistent":false,

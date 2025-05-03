@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"MMobjects",
-    "path":"folders/Main Menu/MMobjects.yy",
+    "path":"folders/Main Menu_Sprites and Objects/MMobjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

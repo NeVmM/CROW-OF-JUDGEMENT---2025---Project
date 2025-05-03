@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Credits",
-    "path":"folders/Main Menu/Credits.yy",
+    "path":"folders/Main Menu_Sprites and Objects/Credits.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

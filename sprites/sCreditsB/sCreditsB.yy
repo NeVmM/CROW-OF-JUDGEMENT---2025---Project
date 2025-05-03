@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"MMsprites",
-    "path":"folders/Main Menu/MMsprites.yy",
+    "path":"folders/Main Menu_Sprites and Objects/MMsprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
