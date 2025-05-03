@@ -90,6 +90,8 @@
     {"name":"Forest2","order":2,"path":"rooms/Forest2/Forest2.yy",},
     {"name":"Heavens2","order":1,"path":"rooms/Heavens2/Heavens2.yy",},
     {"name":"Heavens3","order":2,"path":"rooms/Heavens3/Heavens3.yy",},
+    {"name":"Heavens4","order":3,"path":"rooms/Heavens4/Heavens4.yy",},
+    {"name":"Heavens5","order":4,"path":"rooms/Heavens5/Heavens5.yy",},
     {"name":"rm_CreditsMessage","order":2,"path":"rooms/rm_CreditsMessage/rm_CreditsMessage.yy",},
     {"name":"rm_Settings","order":1,"path":"rooms/rm_Settings/rm_Settings.yy",},
     {"name":"snd_armsattack","order":2,"path":"sounds/snd_armsattack/snd_armsattack.yy",},
