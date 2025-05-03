@@ -1,11 +1,11 @@
 {
   "FolderOrderSettings":[
     {"name":"Actions_Controls","order":1,"path":"folders/Actions_Controls.yy",},
-    {"name":"TemporaryBackground_TutorialBG","order":8,"path":"folders/TemporaryBackground_TutorialBG.yy",},
     {"name":"Blocks","order":7,"path":"folders/Blocks.yy",},
     {"name":"Heaven_Design","order":4,"path":"folders/Blocks/BlockSprites/Heaven_Design.yy",},
     {"name":"Hell_Design","order":5,"path":"folders/Blocks/BlockSprites/Hell_Design.yy",},
     {"name":"BlockTileSets","order":2,"path":"folders/Blocks/BlockTileSets.yy",},
+    {"name":"HeavenDesigns","order":6,"path":"folders/Blocks/BlockTileSets/HeavenDesigns.yy",},
     {"name":"Camera","order":4,"path":"folders/Camera.yy",},
     {"name":"Characters_and_Spike","order":2,"path":"folders/Characters_and_Spike.yy",},
     {"name":"Enemies","order":1,"path":"folders/Characters_and_Spike/Enemies.yy",},
@@ -35,6 +35,7 @@
     {"name":"Tutorial","order":25,"path":"folders/Rooms/Tutorial.yy",},
     {"name":"Tutorial Text","order":2,"path":"folders/Rooms/Tutorial/Tutorial Text.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
+    {"name":"TemporaryBackground_TutorialBG","order":8,"path":"folders/TemporaryBackground_TutorialBG.yy",},
     {"name":"Test Objects","order":3,"path":"folders/Test Objects.yy",},
   ],
   "ResourceOrderSettings":[
@@ -168,6 +169,7 @@
     {"name":"TemporaryBG_1","order":1,"path":"sprites/TemporaryBG_1/TemporaryBG_1.yy",},
     {"name":"Test_Block","order":1,"path":"sprites/Test_Block/Test_Block.yy",},
     {"name":"Tile_HeavenBlock","order":4,"path":"tilesets/Tile_HeavenBlock/Tile_HeavenBlock.yy",},
+    {"name":"Tile_HeavenDesign2","order":1,"path":"tilesets/Tile_HeavenDesign2/Tile_HeavenDesign2.yy",},
     {"name":"Tile_LavaBlocks","order":3,"path":"tilesets/Tile_LavaBlocks/Tile_LavaBlocks.yy",},
     {"name":"Tile_NoLavaBlocks","order":2,"path":"tilesets/Tile_NoLavaBlocks/Tile_NoLavaBlocks.yy",},
     {"name":"Tile_OvergrownBlock","order":1,"path":"tilesets/Tile_OvergrownBlock/Tile_OvergrownBlock.yy",},
