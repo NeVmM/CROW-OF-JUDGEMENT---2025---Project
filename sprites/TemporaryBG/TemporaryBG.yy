@@ -44,8 +44,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"BackgroundLayers",
-    "path":"folders/BackgroundLayers.yy",
+    "name":"TemporaryBackground_TutorialBG",
+    "path":"folders/TemporaryBackground_TutorialBG.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

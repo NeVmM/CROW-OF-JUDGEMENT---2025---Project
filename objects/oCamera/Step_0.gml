@@ -63,7 +63,7 @@ camOffsetY_final += (camOffsetY - camOffsetY_final) * offsetSmoothFactor;
 
 // === 5. Camera target centered on player + offset
 var _camX = oCrow.x - _camWidth / 2 + camOffsetX_final;
-var _camY = oCrow.y - _camHeight / 2 + camOffsetY_final + camVerticalBias;
+var _camY = oCrow.y - _camHeight / 1.5 + camOffsetY_final + camVerticalBias;
 
 // Clamp camera inside room
 _camX = clamp(_camX, 0, room_width - _camWidth);
