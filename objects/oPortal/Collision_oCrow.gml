@@ -10,25 +10,27 @@ else
 	//stages in order but randomized picker
 	if (oRoomLimiter.restAreaLimit == 0)
 	{
-		var pick = irandom(0);
+		var pick = irandom(4);
 		oRoomLimiter.roomLimit += 1;
 		
-//<<<<<<< Updated upstream
-		//if (pick == 0) room_goto(Heavens5);
-//=======
-		if (pick == 0) room_goto(Heavens5);
-//>>>>>>> Stashed changes
-		//if (pick == 1) room_goto(TestForest2);
-		//if (pick == 2) room_goto(TestForest3);
+		if (pick == 0) room_goto(Forest1);
+		if (pick == 1) room_goto(Forest2);
+		if (pick == 2) room_goto(Forest3);
+		if (pick == 3) room_goto(Forest4);
+		if (pick == 4) room_goto(Forest5);
 	}
 	
 	else if (oRoomLimiter.restAreaLimit == 1)
 	{
-		var pick = irandom(0);
+		var pick = irandom(4);
 		oRoomLimiter.roomLimit += 1;
 		
 		//if (pick == 0) room_goto(Caverns1);
 		if (pick == 0) room_goto(Heavens1);
+		if (pick == 1) room_goto(Heavens2);
+		if (pick == 2) room_goto(Heavens3);
+		if (pick == 3) room_goto(Heavens4);
+		if (pick == 4) room_goto(Heavens5);
 	}
 	
 	else if (oRoomLimiter.restAreaLimit == 2)
