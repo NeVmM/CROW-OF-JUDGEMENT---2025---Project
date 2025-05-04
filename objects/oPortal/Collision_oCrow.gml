@@ -13,7 +13,11 @@ else
 		var pick = irandom(0);
 		oRoomLimiter.roomLimit += 1;
 		
-		if (pick == 0) room_goto(Heavens3);
+//<<<<<<< Updated upstream
+		//if (pick == 0) room_goto(Heavens5);
+//=======
+		if (pick == 0) room_goto(Heavens5);
+//>>>>>>> Stashed changes
 		//if (pick == 1) room_goto(TestForest2);
 		//if (pick == 2) room_goto(TestForest3);
 	}
