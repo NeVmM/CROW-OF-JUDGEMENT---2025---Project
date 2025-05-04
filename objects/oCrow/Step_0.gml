@@ -429,7 +429,7 @@ if (health > 0)
         // If health is not being decreased by trap, regenerate
         if (regen_timer >= 60 && health < 100) 
 		{
-            health += 1;  // Regenerate health by 1 per step
+            health += 1;  // Regenerate health by 1 per step/second
             if (health > 100) 
 			{
                 health = 100;  // Clamp health to max 100

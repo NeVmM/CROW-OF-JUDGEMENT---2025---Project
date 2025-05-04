@@ -2,7 +2,9 @@ if (oRoomLimiter.roomLimit >= oRoomLimiter.maxTeleport)
 {
 	//teleports to restarea
     room_goto(RestArea);
+	health = 100;
 	oRoomLimiter.roomLimit = 0;
+	
 	oRoomLimiter.restAreaLimit++;
 }
 else
@@ -26,20 +28,46 @@ else
 		oRoomLimiter.roomLimit += 1;
 		
 		//if (pick == 0) room_goto(Caverns1);
-		if (pick == 0) room_goto(Heavens1);
-		if (pick == 1) room_goto(Heavens2);
-		if (pick == 2) room_goto(Heavens3);
-		if (pick == 3) room_goto(Heavens4);
-		if (pick == 4) room_goto(Heavens5);
+		if (pick == 0) room_goto(Overgrown1);
+		if (pick == 1) room_goto(Overgrown1);
+		if (pick == 2) room_goto(Overgrown1);
+		if (pick == 3) room_goto(Overgrown1);
+		if (pick == 4) room_goto(Overgrown1);
 	}
 	
 	else if (oRoomLimiter.restAreaLimit == 2)
+	{
+		var pick = irandom(4);
+		oRoomLimiter.roomLimit += 1;
+		
+		//if (pick == 0) room_goto(Caverns1);
+		if (pick == 0) room_goto(Caverns1);
+		if (pick == 1) room_goto(Caverns1);
+		if (pick == 2) room_goto(Caverns1);
+		if (pick == 3) room_goto(Caverns1);
+		if (pick == 4) room_goto(Caverns1);
+	}
+	
+	else if (oRoomLimiter.restAreaLimit == 3)
+	{
+		var pick = irandom(4);
+		oRoomLimiter.roomLimit += 1;
+		
+		//if (pick == 0) room_goto(Caverns1);
+		if (pick == 0) room_goto(Hell1);
+	}
+	
+	else if (oRoomLimiter.restAreaLimit == 4)
 	{
 		var pick = irandom(0);
 		oRoomLimiter.roomLimit += 1;
 		
 		//if (pick == 0) room_goto(Caverns1);
-		if (pick == 0) room_goto(Hell1);
+		if (pick == 0) room_goto(Heavens1);
+		if (pick == 1) room_goto(Heavens2);
+		if (pick == 2) room_goto(Heavens3);
+		if (pick == 3) room_goto(Heavens4);
+		if (pick == 4) room_goto(Heavens5);
 	}
 	
 	else
