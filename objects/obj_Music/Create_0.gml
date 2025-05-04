@@ -1,6 +1,6 @@
 #region  // Main Menu, Settings, and Credits Music
 if room == rm_MainMenu {
-	if room_previous==rm_Settings||room_previous==rm_CreditsMessage{
+	if (room_previous==rm_Settings||room_previous==rm_CreditsMessage){
 		audio_pause_sound(snd_Music);
 		audio_resume_sound(snd_Music);
 	}

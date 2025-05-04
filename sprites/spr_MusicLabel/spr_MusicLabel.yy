@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Settings",
-    "path":"folders/Main Menu_Sprites and Objects/Settings.yy",
+    "name":"Labels",
+    "path":"folders/Main Menu_Sprites and Objects/Settings/Labels.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

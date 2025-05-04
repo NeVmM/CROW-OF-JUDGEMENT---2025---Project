@@ -204,6 +204,7 @@
     {"name":"inst_57955CC4","path":"rooms/Forest1/Forest1.yy",},
     {"name":"inst_21F39E8E","path":"rooms/Forest1/Forest1.yy",},
     {"name":"inst_24A1356B","path":"rooms/Forest1/Forest1.yy",},
+    {"name":"inst_1FA28D2A","path":"rooms/Forest1/Forest1.yy",},
   ],
   "isDnd":false,
   "layers":[
