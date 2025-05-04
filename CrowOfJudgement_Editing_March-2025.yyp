@@ -60,7 +60,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"CrowOfJudgement_Editing_March-2025",
   "resources":[
@@ -107,6 +107,7 @@
     {"id":{"name":"oParticleCrow","path":"objects/oParticleCrow/oParticleCrow.yy",},},
     {"id":{"name":"oPoints","path":"objects/oPoints/oPoints.yy",},},
     {"id":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},},
+    {"id":{"name":"oRandomizerRoomController","path":"objects/oRandomizerRoomController/oRandomizerRoomController.yy",},},
     {"id":{"name":"oRestAreaText","path":"objects/oRestAreaText/oRestAreaText.yy",},},
     {"id":{"name":"oRoomLimiter","path":"objects/oRoomLimiter/oRoomLimiter.yy",},},
     {"id":{"name":"oSkellyHitbox","path":"objects/oSkellyHitbox/oSkellyHitbox.yy",},},
@@ -124,6 +125,9 @@
     {"id":{"name":"Caverns1","path":"rooms/Caverns1/Caverns1.yy",},},
     {"id":{"name":"Forest1","path":"rooms/Forest1/Forest1.yy",},},
     {"id":{"name":"Forest2","path":"rooms/Forest2/Forest2.yy",},},
+    {"id":{"name":"Forest3","path":"rooms/Forest3/Forest3.yy",},},
+    {"id":{"name":"Forest4","path":"rooms/Forest4/Forest4.yy",},},
+    {"id":{"name":"Forest5","path":"rooms/Forest5/Forest5.yy",},},
     {"id":{"name":"Heavens1","path":"rooms/Heavens1/Heavens1.yy",},},
     {"id":{"name":"Heavens2","path":"rooms/Heavens2/Heavens2.yy",},},
     {"id":{"name":"Heavens3","path":"rooms/Heavens3/Heavens3.yy",},},
@@ -253,6 +257,9 @@
     {"roomId":{"name":"Forest2","path":"rooms/Forest2/Forest2.yy",},},
     {"roomId":{"name":"Heavens4","path":"rooms/Heavens4/Heavens4.yy",},},
     {"roomId":{"name":"Heavens5","path":"rooms/Heavens5/Heavens5.yy",},},
+    {"roomId":{"name":"Forest3","path":"rooms/Forest3/Forest3.yy",},},
+    {"roomId":{"name":"Forest4","path":"rooms/Forest4/Forest4.yy",},},
+    {"roomId":{"name":"Forest5","path":"rooms/Forest5/Forest5.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
