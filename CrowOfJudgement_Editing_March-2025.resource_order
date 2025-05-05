@@ -205,5 +205,6 @@
     {"name":"Tile_LavaBlocks","order":3,"path":"tilesets/Tile_LavaBlocks/Tile_LavaBlocks.yy",},
     {"name":"Tile_NoLavaBlocks","order":2,"path":"tilesets/Tile_NoLavaBlocks/Tile_NoLavaBlocks.yy",},
     {"name":"Tile_OvergrownBlock","order":1,"path":"tilesets/Tile_OvergrownBlock/Tile_OvergrownBlock.yy",},
+    {"name":"Tile_TutorialBlock","order":7,"path":"tilesets/Tile_TutorialBlock/Tile_TutorialBlock.yy",},
   ],
 }
