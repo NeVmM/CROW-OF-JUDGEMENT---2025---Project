@@ -50,7 +50,7 @@ else
 	
 	else if (oRoomLimiter.restAreaLimit == 3)
 	{
-		var pick = irandom(4);
+		var pick = irandom(0);
 		oRoomLimiter.roomLimit += 1;
 		
 		//if (pick == 0) room_goto(Caverns1);
