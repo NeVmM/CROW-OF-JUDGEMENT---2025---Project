@@ -27,12 +27,11 @@ else
 		var pick = irandom(4);
 		oRoomLimiter.roomLimit += 1;
 		
-		//if (pick == 0) room_goto(Caverns1);
 		if (pick == 0) room_goto(Overgrown1);
-		if (pick == 1) room_goto(Overgrown1);
-		if (pick == 2) room_goto(Overgrown1);
-		if (pick == 3) room_goto(Overgrown1);
-		if (pick == 4) room_goto(Overgrown1);
+		if (pick == 1) room_goto(Overgrown2);
+		if (pick == 2) room_goto(Overgrown3);
+		if (pick == 3) room_goto(Overgrown4);
+		if (pick == 4) room_goto(Overgrown5);
 	}
 	
 	else if (oRoomLimiter.restAreaLimit == 2)
@@ -40,7 +39,6 @@ else
 		var pick = irandom(4);
 		oRoomLimiter.roomLimit += 1;
 		
-		//if (pick == 0) room_goto(Caverns1);
 		if (pick == 0) room_goto(Caverns1);
 		if (pick == 1) room_goto(Caverns1);
 		if (pick == 2) room_goto(Caverns1);
@@ -53,16 +51,18 @@ else
 		var pick = irandom(4);
 		oRoomLimiter.roomLimit += 1;
 		
-		//if (pick == 0) room_goto(Caverns1);
 		if (pick == 0) room_goto(Hell1);
+		if (pick == 1) room_goto(Hell1);
+		if (pick == 2) room_goto(Hell1);
+		if (pick == 3) room_goto(Hell1);
+		if (pick == 4) room_goto(Hell1);
 	}
 	
 	else if (oRoomLimiter.restAreaLimit == 4)
 	{
-		var pick = irandom(0);
+		var pick = irandom(4);
 		oRoomLimiter.roomLimit += 1;
 		
-		//if (pick == 0) room_goto(Caverns1);
 		if (pick == 0) room_goto(Heavens1);
 		if (pick == 1) room_goto(Heavens2);
 		if (pick == 2) room_goto(Heavens3);

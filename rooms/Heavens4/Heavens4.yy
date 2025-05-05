@@ -180,8 +180,7 @@
       ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":36,"SerialiseWidth":167,"TileCompressedData":[
           -835,-2147483648,-142,0,-25,-2147483648,-142,0,-25,-2147483648,-142,0,-25,-2147483648,-142,0,-25,-2147483648,
           -142,0,-25,-2147483648,-142,0,-25,-2147483648,-142,0,-25,-2147483648,-1368,0,-8,102,-159,0,-8,119,-159,
-          0,-8,136,-159,0,-8,153,-1342,0,-86,102,-81,0,-86,119,-81,0,-86,136,-11,0,1,102,-20,0,1,102,-48,0,-86,
-          153,-11,0,3,119,0,0,-15,102,-3,0,1,119,-48,0,-49,153,-47,0,-20,119,-3,136,-2,0,
+          0,-8,136,-159,0,-8,153,-1342,0,-86,102,-81,0,-86,119,-81,0,-86,136,-81,0,-86,153,-81,0,-49,153,-72,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_HeavenBlock","path":"tilesets/Tile_HeavenBlock/Tile_HeavenBlock.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Weapon","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_38ABD876_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38ABD876_1","objectId":{"name":"oCrowWeapon","path":"objects/oCrowWeapon/oCrowWeapon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-128.0,"y":-224.0,},
