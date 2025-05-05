@@ -6,32 +6,24 @@ function controlsSetup()
 }
 
 
-
 function getControls()
 {
-	
-//Direction Input
-	rightKey = keyboard_check(ord("D")) + keyboard_check(vk_right);
-	rightKey = clamp (rightKey, 0, 1);
-	
-	leftKey = keyboard_check(ord("A")) + keyboard_check(vk_left);
-	leftKey = clamp (leftKey, 0, 1);
-	
-	
-	
-//Action Input
-	jumpKeyPressed = keyboard_check_pressed(vk_space);
-	jumpKeyPressed = clamp (jumpKeyPressed, 0, 1);
-	
-	jumpKey = keyboard_check(vk_space);
-	jumpKey = clamp (jumpKey, 0, 1);
-	
-	//Attack Key
-	attackKey = keyboard_check_pressed(ord("H")) + mouse_check_button_pressed(mb_left);
-	
-	//Roll Key
-	rollKey = keyboard_check_pressed(vk_lshift);
-	
+    rightKey = keyboard_check(global.bind_right);
+    rightKey = clamp(rightKey, 0, 1);
+
+    leftKey = keyboard_check(global.bind_left);
+    leftKey = clamp(leftKey, 0, 1);
+
+    jumpKeyPressed = keyboard_check_pressed(global.bind_jump);
+    jumpKeyPressed = clamp(jumpKeyPressed, 0, 1);
+
+    jumpKey = keyboard_check(global.bind_jump);
+    jumpKey = clamp(jumpKey, 0, 1);
+
+    attackKey = keyboard_check_pressed(global.bind_attack) + mouse_check_button_pressed(mb_left);
+    rollKey = keyboard_check_pressed(global.bind_roll);
+
+
 	//Jump Key Buffering
 	if jumpKeyPressed
 	{
@@ -50,8 +42,6 @@ function getControls()
 	exitGame = keyboard_check_pressed(vk_escape);
 	
 }
-
-
 
 
 

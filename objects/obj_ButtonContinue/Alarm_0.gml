@@ -1,1 +1,1 @@
-room_goto(TestForest1);
+room_goto(Forest1);

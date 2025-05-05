@@ -3,7 +3,7 @@
 // Player Draw GUI Event (Manual Health Bar)
 
 // Position of the health bar on screen
-var bar_x = 20	;
+var bar_x = 20;
 var bar_y = 20;
 
 // Dimensions of the bar
@@ -48,3 +48,6 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 #endregion
+
+
+
