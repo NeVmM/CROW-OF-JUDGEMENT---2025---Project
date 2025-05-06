@@ -87,7 +87,6 @@
     {"name":"inst_571FE5D8","path":"rooms/TutorialRoom/TutorialRoom.yy",},
     {"name":"inst_20CE1F6A","path":"rooms/TutorialRoom/TutorialRoom.yy",},
     {"name":"inst_56987319","path":"rooms/TutorialRoom/TutorialRoom.yy",},
-    {"name":"inst_5181B259","path":"rooms/TutorialRoom/TutorialRoom.yy",},
     {"name":"inst_2C477080","path":"rooms/TutorialRoom/TutorialRoom.yy",},
   ],
   "isDnd":false,
@@ -196,7 +195,6 @@
         {"$GMRInstance":"v2","%Name":"inst_571FE5D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_571FE5D8","objectId":{"name":"TutorialRoll","path":"objects/TutorialRoll/TutorialRoll.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1939.0,"y":1140.0,},
         {"$GMRInstance":"v2","%Name":"inst_20CE1F6A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20CE1F6A","objectId":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":210.0,"y":1140.0,},
         {"$GMRInstance":"v2","%Name":"inst_56987319","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56987319","objectId":{"name":"obj_Pause","path":"objects/obj_Pause/obj_Pause.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-60.0,"y":1110.0,},
-        {"$GMRInstance":"v2","%Name":"inst_5181B259","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5181B259","objectId":{"name":"oEnemySkelly","path":"objects/oEnemySkelly/oEnemySkelly.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":720.0,"y":450.0,},
       ],"layers":[],"name":"Objects_Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":600,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.01",},
