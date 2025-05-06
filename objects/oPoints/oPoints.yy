@@ -9,8 +9,8 @@
   "name":"oPoints",
   "overriddenProperties":[],
   "parent":{
-    "name":"CrowOfJudgement_Editing_March-2025",
-    "path":"CrowOfJudgement_Editing_March-2025.yyp",
+    "name":"TestObjects",
+    "path":"folders/TestObjects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

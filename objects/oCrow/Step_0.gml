@@ -459,15 +459,17 @@ if (health <= 0)
 
 #endregion
 
-#region Pause/Exit
+#region GAME QUICK REST
 
-if (exitGame)
+if (exitGame) //from KeyConfigures
 {
-	room_goto(rm_MainMenu);
+	game_restart();
 }
 
 
 #endregion
+
+
 
 
 

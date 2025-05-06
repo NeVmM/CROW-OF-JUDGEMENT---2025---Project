@@ -6,8 +6,8 @@
   "name":"eObject1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Crow_Player",
-    "path":"folders/Characters_and_Spike/Crow_Player.yy",
+    "name":"Blocks",
+    "path":"folders/Blocks.yy",
   },
   "parentObjectId":null,
   "persistent":false,
