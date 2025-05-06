@@ -137,3 +137,6 @@ flash_cooldown = 0; // to prevent instant retrigger
 
 flash = 0;
 hitfrom = 0;
+
+bar_x = 20;
+bar_y = 20;

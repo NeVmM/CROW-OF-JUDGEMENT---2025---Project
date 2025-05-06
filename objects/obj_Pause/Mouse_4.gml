@@ -2,7 +2,9 @@
 
 
 if (pause) 
- {   sprite_index = sPauseB;
+ {  
+	 sprite_index = sPauseB;
+	
 
  }
  if (!pause) {
