@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Heaven_Design","folderPath":"folders/Blocks/BlockSprites/Heaven_Design.yy","name":"Heaven_Design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hell_Design","folderPath":"folders/Blocks/BlockSprites/Hell_Design.yy","name":"Hell_Design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BlockTileSets","folderPath":"folders/Blocks/BlockTileSets.yy","name":"BlockTileSets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"ForestDesigns","folderPath":"folders/Blocks/BlockTileSets/ForestDesigns.yy","name":"ForestDesigns","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"HeavenDesigns","folderPath":"folders/Blocks/BlockTileSets/HeavenDesigns.yy","name":"HeavenDesigns","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Camera","folderPath":"folders/Camera.yy","name":"Camera","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Characters_and_Spike","folderPath":"folders/Characters_and_Spike.yy","name":"Characters_and_Spike","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -62,7 +63,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"CrowOfJudgement_Editing_March-2025",
   "resources":[
@@ -165,6 +166,7 @@
     {"id":{"name":"snd_Click","path":"sounds/snd_Click/snd_Click.yy",},},
     {"id":{"name":"snd_Music","path":"sounds/snd_Music/snd_Music.yy",},},
     {"id":{"name":"snd_Music2","path":"sounds/snd_Music2/snd_Music2.yy",},},
+    {"id":{"name":"Forest_Design","path":"sprites/Forest_Design/Forest_Design.yy",},},
     {"id":{"name":"Forest_InnerCloud","path":"sprites/Forest_InnerCloud/Forest_InnerCloud.yy",},},
     {"id":{"name":"Forest_InnerTree","path":"sprites/Forest_InnerTree/Forest_InnerTree.yy",},},
     {"id":{"name":"Forest_Mountains","path":"sprites/Forest_Mountains/Forest_Mountains.yy",},},
@@ -275,6 +277,8 @@
     {"id":{"name":"TemporaryBG_1","path":"sprites/TemporaryBG_1/TemporaryBG_1.yy",},},
     {"id":{"name":"TemporaryBG","path":"sprites/TemporaryBG/TemporaryBG.yy",},},
     {"id":{"name":"Test_Block","path":"sprites/Test_Block/Test_Block.yy",},},
+    {"id":{"name":"Backdrop2FenceFloweretc","path":"tilesets/Backdrop2FenceFloweretc/Backdrop2FenceFloweretc.yy",},},
+    {"id":{"name":"Tile_ForestDesign","path":"tilesets/Tile_ForestDesign/Tile_ForestDesign.yy",},},
     {"id":{"name":"Tile_GrassBlock","path":"tilesets/Tile_GrassBlock/Tile_GrassBlock.yy",},},
     {"id":{"name":"Tile_HeavenBlock","path":"tilesets/Tile_HeavenBlock/Tile_HeavenBlock.yy",},},
     {"id":{"name":"Tile_HeavenDesign","path":"tilesets/Tile_HeavenDesign/Tile_HeavenDesign.yy",},},
