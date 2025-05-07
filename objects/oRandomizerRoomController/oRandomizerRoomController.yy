@@ -8,8 +8,8 @@
   "name":"oRandomizerRoomController",
   "overriddenProperties":[],
   "parent":{
-    "name":"CrowOfJudgement_Editing_March-2025",
-    "path":"CrowOfJudgement_Editing_March-2025.yyp",
+    "name":"aRoom Switcher",
+    "path":"folders/Rooms/aRoom Switcher.yy",
   },
   "parentObjectId":null,
   "persistent":true,

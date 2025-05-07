@@ -12,8 +12,8 @@
   "name":"oEnemyFireling",
   "overriddenProperties":[],
   "parent":{
-    "name":"EnemyFireling",
-    "path":"folders/Characters_and_Spike/Enemies/EnemyFireling.yy",
+    "name":"Enemies",
+    "path":"folders/Characters_and_Spike/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

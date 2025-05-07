@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"Tile_NoLavaBlocks",
+  "%Name":"Tile_CavernsBlocks",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"Tile_NoLavaBlocks",
+  "name":"Tile_CavernsBlocks",
   "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,

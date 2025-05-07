@@ -11,8 +11,8 @@
   "name":"oEnemyEye",
   "overriddenProperties":[],
   "parent":{
-    "name":"EnemyEye",
-    "path":"folders/Characters_and_Spike/Enemies/EnemyEye.yy",
+    "name":"Enemies",
+    "path":"folders/Characters_and_Spike/Enemies.yy",
   },
   "parentObjectId":{
     "name":"oEnemyFollow",

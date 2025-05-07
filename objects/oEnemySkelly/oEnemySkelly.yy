@@ -11,8 +11,8 @@
   "name":"oEnemySkelly",
   "overriddenProperties":[],
   "parent":{
-    "name":"EnemySkelly",
-    "path":"folders/Characters_and_Spike/Enemies/EnemySkelly.yy",
+    "name":"Enemies",
+    "path":"folders/Characters_and_Spike/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
