@@ -12,18 +12,6 @@ if (pause)
 		}
 	surface_reset_target()
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 if (room != rm_MainMenu && room != rm_Settings && room != rm_CreditsMessage)
 

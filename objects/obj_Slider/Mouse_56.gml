@@ -12,7 +12,6 @@ switch(setting){
 		
 		audio_sound_gain(snd_Click, amount_current / 100, 0); 
 		audio_sound_gain(snd_armsattack, amount_current / 100, 0);
-		audio_sound_gain(snd_Lose, amount_current / 100, 0);
 	break;
 	case "brightness":
 	break;

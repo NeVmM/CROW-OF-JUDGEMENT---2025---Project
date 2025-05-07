@@ -453,25 +453,21 @@ if (health <= 0)
 	
     game_restart();  //Restart the game when health is 0
 	health = 100; //set back hp to 100 so you can start a new run again
-	
 }
 
-
 #endregion
 
 #endregion
 
-#region GAME QUICK REST
+#region Pause/Exit
 
-if (exitGame) //from KeyConfigures
+if (exitGame)
 {
-	game_restart();
+	room_goto(rm_MainMenu);
 }
 
 
 #endregion
-
-
 
 
 

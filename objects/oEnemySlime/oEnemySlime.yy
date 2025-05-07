@@ -11,8 +11,8 @@
   "name":"oEnemySlime",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Characters_and_Spike/Enemies.yy",
+    "name":"EnemySlime",
+    "path":"folders/Characters_and_Spike/Enemies/EnemySlime.yy",
   },
   "parentObjectId":{
     "name":"oEnemyFollow",

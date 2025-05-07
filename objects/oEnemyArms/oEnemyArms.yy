@@ -12,8 +12,8 @@
   "name":"oEnemyArms",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Characters_and_Spike/Enemies.yy",
+    "name":"EnemyArms",
+    "path":"folders/Characters_and_Spike/Enemies/EnemyArms.yy",
   },
   "parentObjectId":null,
   "persistent":false,

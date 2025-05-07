@@ -12,29 +12,42 @@ if (is_moving && place_meeting(x + moveSpeed * facing, y, eObject1))
 #endregion
 
 #region Random Walk & Random Timer Idle
-move_timer -= 1;
-
-if (move_timer <= 0 && !is_attacking && !is_following_player) // UPDATED: Don't random walk if following
+if (!is_following_player && !is_attacking) // Only random walk if not chasing or attacking
 {
-    is_moving = !is_moving; // toggle between moving and stopping
-    move_timer = irandom_range(180, 420);
-	
-    // Randomly flip direction when going idle
-    if (!is_moving)
+    move_timer -= 1;
+    if (move_timer <= 0)
     {
-        facing = choose(1, -1);
+        is_moving = !is_moving; // toggle between moving and stopping
+        move_timer = irandom_range(180, 420);
+        
+        if (!is_moving)
+        {
+            facing = choose(1, -1);
+        }
     }
 }
 #endregion
 
 #region Horizontal Movement
-if (is_moving && !is_attacking) 
+if (is_moving)
 {
     xSpeed = moveSpeed * facing;
-} 
-else 
+}
+else
 {
     xSpeed = 0;
+}
+
+if (!is_attacking) 
+{
+    if (is_moving)
+    {
+        xSpeed = moveSpeed * facing;
+    }
+    else
+    {
+        xSpeed = 0;
+    }
 }
 #endregion
 
@@ -62,107 +75,93 @@ if (place_meeting(x, y + ySpeed, eObject1))
 y += ySpeed;
 #endregion
 
-#region Ledge Detection (floor)
+#region Flip Sprite
+image_xscale = facing;
+#endregion
+
+#region Ledge Detection
 var checkX = x + facing;
 var checkY = y + 1;
-
-if (!position_meeting(checkX, checkY, eObject1) && is_moving && !is_attacking) 
+if (!position_meeting(checkX, checkY, eObject1))
 {
-    facing *= -1; // Turn around at ledge
+    facing *= -1;
 }
 #endregion
 
 #region Follow Player & Attack
 var _player = instance_nearest(x, y, oCrow);
+is_following_player = false;
 
-is_following_player = false; // UPDATED: Reset first every step
-
-if (instance_exists(_player))
+if (instance_exists(_player) && !dead)
 {
     var dist_x = abs(_player.x - x);
     var dist_y = abs(_player.y - y);
 
-    if (dist_x < 160 && dist_y < 16) // Within detection range
+    if (dist_x < 80 && dist_y < 32) // detect player horizontally, and a little more vertically
     {
-        is_following_player = true; // UPDATED: Now following
-
-        if (!is_attacking && attack_cooldown <= 0)
+        is_following_player = true;
+        
+        if (!is_attacking)
         {
-            var arms_on_ground = position_meeting(x, y + 1, eObject1);
-            var player_on_ground = position_meeting(_player.x, _player.y + 1, eObject1);
+            // Face the player
+            facing = (_player.x < x) ? -1 : 1;
 
-            if (arms_on_ground && player_on_ground)
+            if (dist_x > 100) // If player is far enough, keep moving toward them
             {
-                // Face the player
-                facing = (_player.x < x) ? -1 : 1;
-
-                if (dist_x > 50)
-                {
-                    is_moving = true;
-                    move_timer = 30;
-                }
-                else
-                {
-                    is_moving = false;
-                    xSpeed = 0;
-
-                    // Begin attack
-                    is_attacking = true;
-                    attack_effect_spawned = false;
-                    sprite_index = Sprite_EnemyArms_Attack;
-                    image_index = 0;
-                    image_speed = 1.5;
-                }
+                is_moving = true;
+            }
+            else
+            {
+                // Begin attack
+				is_moving = false;
+				xSpeed = 0;
+                is_attacking = true;
+                attack_effect_spawned = false;
+                attack_cooldown = room_speed * irandom_range(2, 3); // 2-3 seconds cooldown
+                sprite_index = Sprite_EnemyArms_Attack;
+                image_index = 0;
+                image_speed = 1.5;
             }
         }
     }
 }
 #endregion
 
-#region Handle Attack Animation and Spawn Effect
+#region Handle Attack Cooldown and Spawn Hitbox
 if (is_attacking)
 {
-    if (!attack_effect_spawned && image_index >= 1)
+    if (sprite_index == Sprite_EnemyArms_Attack)
     {
-        var effect_x = x + (facing * 16);
-        var effect_y = y;
-        var fx = instance_create_layer(effect_x, effect_y, layer, oEnemyArmsAtkFX);
-        fx.owner = id;
-        fx.facing = facing;
-        attack_effect_spawned = true;
-    }
-
-    if (image_index >= image_number - 1)
-    {
-        is_attacking = false;
-        sprite_index = Sprite_EnemyArms_Idle;
-		
-		// Set random cooldown after attack finishes
-		attack_cooldown = irandom_range(room_speed * 0.8, room_speed * 1.7);
-		
-        // UPDATED: After attacking, if still following player, continue
-        if (!is_following_player)
+        if (image_index >= 4 && image_index <= 6 && !attack_effect_spawned)
         {
-            move_timer = irandom_range(180, 420); // Walk randomly again
+            var hitbox = instance_create_layer(x + facing * 16, y - 4, layer, oArmsHitbox);
+            hitbox.image_xscale = facing; // Flip the hitbox according to facing direction
+            attack_effect_spawned = true;
+			
+			hp--; // decrement by only 1 per hit
+			health-= 15;
+			//flash = 1.5;
+			
+			with (oCamera)
+			{
+				shake_amount = 4; // How intense the shake is
+				shake_timer = 10;
+			}
         }
     }
+    
+    if (attack_cooldown > 0)
+    {
+        attack_cooldown--;
+    }
+    else
+    {
+        is_attacking = false;
+        is_moving = false;
+        move_timer = irandom_range(60, 120); // Short idle after attack
+    }
 }
-#endregion
-
-
-
-
-
-
-
-
-
-
-
-
-//OTHER STUFF
-#region Sprites
-if (!is_attacking)
+else
 {
     if (is_moving)
     {
@@ -170,14 +169,8 @@ if (!is_attacking)
     }
     else
     {
+        is_moving = false;
         sprite_index = Sprite_EnemyArms_Idle;
     }
-}
-image_xscale = facing;
-
-// Cooldown timer
-if (attack_cooldown > 0)
-{
-    attack_cooldown--;
 }
 #endregion

@@ -13,10 +13,8 @@ is_moving = true; // starts moving
 
 dead = false;
 
+is_following_player = false;
 onGround = true;
 can_attack = true;
-attack_cooldown = 0;
+attack_cooldown = 180;
 is_attacking = false;
-
-attack_timer = 0;
-attack_effect_spawned = false;

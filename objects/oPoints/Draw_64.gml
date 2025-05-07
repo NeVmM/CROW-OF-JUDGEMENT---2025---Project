@@ -1,1 +1,1 @@
-draw_text(100, 70, points);
+draw_text(60, 60, points);

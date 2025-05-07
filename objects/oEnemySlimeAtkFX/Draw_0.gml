@@ -1,3 +1,2 @@
 draw_self();
-
-//draw_text(x, y - 20, "Attack");
+draw_text(x, y - 20, "Attack");
