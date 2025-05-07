@@ -42,7 +42,6 @@
   "ResourceOrderSettings":[
     {"name":"fnt_text","order":13,"path":"fonts/fnt_text/fnt_text.yy",},
     {"name":"eObject1","order":4,"path":"objects/eObject1/eObject1.yy",},
-    {"name":"oArmsHitbox","order":6,"path":"objects/oArmsHitbox/oArmsHitbox.yy",},
     {"name":"obj_ButtonCredits","order":1,"path":"objects/obj_ButtonCredits/obj_ButtonCredits.yy",},
     {"name":"obj_ButtonExit","order":2,"path":"objects/obj_ButtonExit/obj_ButtonExit.yy",},
     {"name":"obj_ButtonMainMenu","order":3,"path":"objects/obj_ButtonMainMenu/obj_ButtonMainMenu.yy",},
@@ -69,6 +68,7 @@
     {"name":"oCrowWeapon","order":1,"path":"objects/oCrowWeapon/oCrowWeapon.yy",},
     {"name":"oDeathTimer","order":15,"path":"objects/oDeathTimer/oDeathTimer.yy",},
     {"name":"oEnemyArms","order":5,"path":"objects/oEnemyArms/oEnemyArms.yy",},
+    {"name":"oEnemyArmsAtkFX","order":7,"path":"objects/oEnemyArmsAtkFX/oEnemyArmsAtkFX.yy",},
     {"name":"oEnemyArmsDead","order":4,"path":"objects/oEnemyArmsDead/oEnemyArmsDead.yy",},
     {"name":"oEnemyEye","order":6,"path":"objects/oEnemyEye/oEnemyEye.yy",},
     {"name":"oEnemyEyeDead","order":4,"path":"objects/oEnemyEyeDead/oEnemyEyeDead.yy",},
@@ -167,6 +167,7 @@
     {"name":"Sprite_AttackFX","order":5,"path":"sprites/Sprite_AttackFX/Sprite_AttackFX.yy",},
     {"name":"Sprite_Dead","order":14,"path":"sprites/Sprite_Dead/Sprite_Dead.yy",},
     {"name":"Sprite_EnemyArms_Attack","order":5,"path":"sprites/Sprite_EnemyArms_Attack/Sprite_EnemyArms_Attack.yy",},
+    {"name":"Sprite_EnemyArms_AttackEffect","order":8,"path":"sprites/Sprite_EnemyArms_AttackEffect/Sprite_EnemyArms_AttackEffect.yy",},
     {"name":"Sprite_EnemyArms_Dead","order":3,"path":"sprites/Sprite_EnemyArms_Dead/Sprite_EnemyArms_Dead.yy",},
     {"name":"Sprite_EnemyArms_Idle","order":2,"path":"sprites/Sprite_EnemyArms_Idle/Sprite_EnemyArms_Idle.yy",},
     {"name":"Sprite_EnemyArms_Walking","order":1,"path":"sprites/Sprite_EnemyArms_Walking/Sprite_EnemyArms_Walking.yy",},

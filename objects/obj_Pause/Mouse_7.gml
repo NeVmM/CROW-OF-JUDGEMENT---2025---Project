@@ -2,7 +2,7 @@ if (room != rm_MainMenu && room != rm_Settings && room != rm_CreditsMessage) {
     
     if (!pause) {
         pause = true;
-        sprite_index = sResume;
+        sprite_index = sPauseA;
 
         // Pause logic
         audio_pause_all();
@@ -20,11 +20,11 @@ if (room != rm_MainMenu && room != rm_Settings && room != rm_CreditsMessage) {
 
     } else {
         pause = false;
-        sprite_index = sPauseB;
+        sprite_index = sPauseA;
 
         // Resume logic
         instance_activate_all();
-		sprite_index = sPauseB;
+		sprite_index = sResume;
         audio_resume_all();
         if (surface_exists(pauseSurf)) surface_free(pauseSurf);
         if (buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);

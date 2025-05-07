@@ -3,10 +3,10 @@
 
 if (pause) 
  {  
-	 sprite_index = sPauseB;
+	 sprite_index = sResume;
 	
 
  }
  if (!pause) {
-    sprite_index = sResume;
+    sprite_index = sPauseB;
 }

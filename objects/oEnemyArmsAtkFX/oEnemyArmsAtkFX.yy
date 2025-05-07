@@ -1,12 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oArmsHitbox",
+  "%Name":"oEnemyArmsAtkFX",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oCrow","path":"objects/oCrow/oCrow.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oArmsHitbox",
+  "name":"oEnemyArmsAtkFX",
   "overriddenProperties":[],
   "parent":{
     "name":"EnemyArms",
@@ -30,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite_EnemyArms_AttackEffect",
+    "path":"sprites/Sprite_EnemyArms_AttackEffect/Sprite_EnemyArms_AttackEffect.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
