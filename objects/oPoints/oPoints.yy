@@ -9,8 +9,8 @@
   "name":"oPoints",
   "overriddenProperties":[],
   "parent":{
-    "name":"OFCSAVE",
-    "path":"OFCSAVE.yyp",
+    "name":"TestObjects",
+    "path":"folders/TestObjects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

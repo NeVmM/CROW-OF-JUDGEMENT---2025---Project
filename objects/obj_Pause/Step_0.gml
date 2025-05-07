@@ -9,8 +9,8 @@ var cam_y = camera_get_view_y(cam);
 var margin = 10;
 
 // Set position of object to top-right corner
-x = cam_x + 480 - margin; // right edge minus margin
-y = cam_y + margin;       // top edge plus margin
+x = cam_x + 20 - margin; // right edge minus margin
+y = cam_y + 15 - margin;       // top edge plus margin
 }
 else
 {

@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPauseB",
-    "path":"sprites/sPauseB/sPauseB.yy",
+    "name":"sResume",
+    "path":"sprites/sResume/sResume.yy",
   },
   "spriteMaskId":null,
   "visible":true,

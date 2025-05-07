@@ -8,8 +8,8 @@
   "name":"oRandomizerRoomController",
   "overriddenProperties":[],
   "parent":{
-    "name":"OFCSAVE",
-    "path":"OFCSAVE.yyp",
+    "name":"aRoom Switcher",
+    "path":"folders/Rooms/aRoom Switcher.yy",
   },
   "parentObjectId":null,
   "persistent":true,
