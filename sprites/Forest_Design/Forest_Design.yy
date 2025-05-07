@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Forest_Design",
   "bboxMode":0,
-  "bbox_bottom":508,
+  "bbox_bottom":511,
   "bbox_left":0,
-  "bbox_right":457,
+  "bbox_right":509,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b256522d-0404-4f77-ad49-5046e261a737","name":"b256522d-0404-4f77-ad49-5046e261a737","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5426f16f-dce6-446d-8c3e-bf58cdefc3c5","name":"5426f16f-dce6-446d-8c3e-bf58cdefc3c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":512,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d6202a36-d488-43cc-a2d0-53888260aba7","blendMode":0,"displayName":"default","isLocked":false,"name":"d6202a36-d488-43cc-a2d0-53888260aba7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8dd35b16-dc46-460a-b689-7281de4d8103","blendMode":0,"displayName":"default","isLocked":false,"name":"8dd35b16-dc46-460a-b689-7281de4d8103","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Forest_Design",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b256522d-0404-4f77-ad49-5046e261a737","path":"sprites/Forest_Design/Forest_Design.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3445b14f-ed94-41f5-a977-ed61fc05b87c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5426f16f-dce6-446d-8c3e-bf58cdefc3c5","path":"sprites/Forest_Design/Forest_Design.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cc127552-f433-48e9-953d-0702548f112f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
