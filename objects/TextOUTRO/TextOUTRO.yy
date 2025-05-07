@@ -8,8 +8,8 @@
   "name":"TextOUTRO",
   "overriddenProperties":[],
   "parent":{
-    "name":"CrowOfJudgement_Editing_March-2025",
-    "path":"CrowOfJudgement_Editing_March-2025.yyp",
+    "name":"Intro_Outro",
+    "path":"folders/Intro_Outro.yy",
   },
   "parentObjectId":null,
   "persistent":false,

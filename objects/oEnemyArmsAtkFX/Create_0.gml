@@ -1,4 +1,4 @@
-spd = 0; // weapon doesn't move
+Spritespd = 0; // weapon doesn't move
 hsp = 0;
 facing = 1;
 owner = noone;
