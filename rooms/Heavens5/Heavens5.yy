@@ -71,6 +71,7 @@
     {"name":"inst_15A29D9B","path":"rooms/Heavens5/Heavens5.yy",},
     {"name":"inst_5F628BC3","path":"rooms/Heavens5/Heavens5.yy",},
     {"name":"inst_2AEF5FEE","path":"rooms/Heavens5/Heavens5.yy",},
+    {"name":"inst_1660E21B","path":"rooms/Heavens5/Heavens5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -241,6 +242,7 @@
         {"$GMRInstance":"v2","%Name":"inst_9D98BF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9D98BF6","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":17.0,"x":600.0,"y":450.0,},
         {"$GMRInstance":"v2","%Name":"inst_447FBB64","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_447FBB64","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":17.0,"x":480.0,"y":450.0,},
         {"$GMRInstance":"v2","%Name":"inst_19BD0B98","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19BD0B98","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":16.875,"x":720.0,"y":453.75,},
+        {"$GMRInstance":"v2","%Name":"inst_1660E21B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1660E21B","objectId":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":60.0,"y":330.0,},
       ],"layers":[],"name":"Objects_Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Backdrop1","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backdrop1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":36,"SerialiseWidth":167,"TileCompressedData":[
           2,0,70,-3,0,1,70,-10,0,1,70,-3,0,1,70,-3,0,1,70,-3,0,1,70,-3,0,1,70,-3,0,1,70,-3,0,1,70,-3,0,1,70,-3,

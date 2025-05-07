@@ -3,4 +3,6 @@ fade_speed = 0.03;
 is_fading = false;
 target_room = noone;
 
-persistent = true;
+
+
+my_room = room;
