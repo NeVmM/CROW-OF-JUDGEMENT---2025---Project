@@ -13,6 +13,7 @@
     {"$GMFolder":"","%Name":"Actions_Controls","folderPath":"folders/Actions_Controls.yy","name":"Actions_Controls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Blocks","folderPath":"folders/Blocks.yy","name":"Blocks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BlockSprites","folderPath":"folders/Blocks/BlockSprites.yy","name":"BlockSprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Forest_Design","folderPath":"folders/Blocks/BlockSprites/Forest_Design.yy","name":"Forest_Design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Heaven_Design","folderPath":"folders/Blocks/BlockSprites/Heaven_Design.yy","name":"Heaven_Design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hell_Design","folderPath":"folders/Blocks/BlockSprites/Hell_Design.yy","name":"Hell_Design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BlockTileSets","folderPath":"folders/Blocks/BlockTileSets.yy","name":"BlockTileSets","resourceType":"GMFolder","resourceVersion":"2.0",},

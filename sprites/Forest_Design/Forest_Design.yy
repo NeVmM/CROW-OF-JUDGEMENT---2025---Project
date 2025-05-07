@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BlockSprites",
-    "path":"folders/Blocks/BlockSprites.yy",
+    "name":"Forest_Design",
+    "path":"folders/Blocks/BlockSprites/Forest_Design.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
