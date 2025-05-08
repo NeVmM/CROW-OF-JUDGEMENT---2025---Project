@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"Tile_HellDesign",
-  "out_columns":17,
+  "out_columns":34,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -34,5 +34,5 @@
   "tileWidth":30,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":289,
+  "tile_count":1156,
 }

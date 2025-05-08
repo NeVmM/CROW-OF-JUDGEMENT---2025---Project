@@ -224,6 +224,7 @@
     {"name":"inst_6E80143A","path":"rooms/Forest3/Forest3.yy",},
     {"name":"inst_6E294A2C","path":"rooms/Forest3/Forest3.yy",},
     {"name":"inst_12B5CB04","path":"rooms/Forest3/Forest3.yy",},
+    {"name":"inst_68BD98C7","path":"rooms/Forest3/Forest3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -496,6 +497,7 @@
         {"$GMRInstance":"v2","%Name":"inst_2D225E3F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D225E3F","objectId":{"name":"eObject1","path":"objects/eObject1/eObject1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":2.0,"x":5610.0,"y":600.0,},
         {"$GMRInstance":"v2","%Name":"inst_E4A85AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E4A85AB","objectId":{"name":"oCrow","path":"objects/oCrow/oCrow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":60.0,"y":750.0,},
         {"$GMRInstance":"v2","%Name":"inst_5420F5BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5420F5BB","objectId":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":6000.0,"y":720.0,},
+        {"$GMRInstance":"v2","%Name":"inst_68BD98C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68BD98C7","objectId":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":270.0,"y":780.0,},
       ],"layers":[],"name":"Objects_Blocks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Backdrop1GrassFlowerEtc","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backdrop1GrassFlowerEtc","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":200,"TileCompressedData":[
           -353,-2147483648,1,1610612738,-18,-2147483648,1,1073741848,-525,-2147483648,1,1342177282,-6,-2147483648,

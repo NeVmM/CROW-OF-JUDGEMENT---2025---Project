@@ -136,10 +136,13 @@
     {"name":"inst_699D3559","path":"rooms/Forest5/Forest5.yy",},
     {"name":"inst_42B8E7BC","path":"rooms/Forest5/Forest5.yy",},
     {"name":"inst_4DC6A8DB","path":"rooms/Forest5/Forest5.yy",},
+    {"name":"inst_59C90C55","path":"rooms/Forest5/Forest5.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"NEXTLEVEL_ARROW","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"NEXTLEVEL_ARROW","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"NEXTLEVEL_ARROW","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v2","%Name":"inst_59C90C55","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59C90C55","objectId":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":640.0,},
+      ],"layers":[],"name":"NEXTLEVEL_ARROW","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"BlockLayers","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"BlockLayers","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":200,"TileCompressedData":[
           -13,-2147483648,1,9,-182,10,1,11,-16,-2147483648,1,9,-182,10,1,11,-16,-2147483648,1,9,-182,10,1,11,-16,
           -2147483648,1,9,-27,10,1,22,-154,18,1,19,-16,-2147483648,1,9,-27,10,1,805306377,-171,-2147483648,1,9,

@@ -287,3 +287,63 @@ if (layer_exists("cave5"))
 }
 
 #endregion
+
+#region HELL PARALLAX
+
+if (layer_exists("HellLayer1")) 
+{
+	var parallaxX_cave1 = camX * 0.9; // Moves at 50% of camera
+    var offsetY_cave1 = 0;           // Optional Y offset
+    layer_x("HellLayer1", camX + (parallaxX_cave1 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("HellLayer1", camY + offsetY_cave1); // Lock vertically with the camera
+}
+
+if (layer_exists("HellLayer2")) 
+{
+	var parallaxX_cave2 = camX * 0.8; // Moves at 50% of camera
+    var offsetY_cave2 = 0;           // Optional Y offset
+    layer_x("HellLayer2", camX + (parallaxX_cave2 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("HellLayer2", camY + offsetY_cave2); // Lock vertically with the camera
+}
+
+if (layer_exists("HellLayer3")) 
+{
+	var parallaxX_light1 = camX * 0.7; // Moves at 50% of camera
+    var offsetY_light1 = 0;           // Optional Y offset
+    layer_x("HellLayer3", camX + (parallaxX_light1 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("HellLayer3", camY + offsetY_light1); // Lock vertically with the camera
+}
+
+if (layer_exists("HellLayer4")) 
+{
+	var parallaxX_cave3 = camX * 0.6; // Moves at 50% of camera
+    var offsetY_cave3 = 0;           // Optional Y offset
+    layer_x("HellLayer4", camX + (parallaxX_cave3 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("HellLayer4", camY + offsetY_cave3); // Lock vertically with the camera
+}
+
+if (layer_exists("HellLayer5")) 
+{
+	var parallaxX_light2 = camX * 0.5; // Moves at 50% of camera
+    var offsetY_light2 = 0;           // Optional Y offset
+    layer_x("HellLayer5", camX + (parallaxX_light2 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("HellLayer5", camY + offsetY_light2); // Lock vertically with the camera
+}
+
+if (layer_exists("HellLayer6")) 
+{
+	var parallaxX_cave4 = camX * 0.4; // Moves at 50% of camera
+    var offsetY_cave4 = 0;           // Optional Y offset
+    layer_x("HellLayer6", camX + (parallaxX_cave4 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("HellLayer6", camY + offsetY_cave4); // Lock vertically with the camera
+}
+
+if (layer_exists("HellLayer7")) 
+{
+	var parallaxX_cave5 = camX * 0.3; // Moves at 50% of camera
+    var offsetY_cave5 = 0;           // Optional Y offset
+    layer_x("HellLayer7", camX + (parallaxX_cave5 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("HellLayer7", camY + offsetY_cave5); // Lock vertically with the camera
+}
+
+#endregion
