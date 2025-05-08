@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Hell_Design",
-    "path":"folders/Blocks/BlockSprites/Hell_Design.yy",
+    "path":"folders/Blocks/Designs_Objects/Hell_Design.yy",
   },
   "parentObjectId":null,
   "persistent":false,

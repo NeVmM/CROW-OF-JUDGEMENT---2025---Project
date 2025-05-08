@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"ForestDesigns",
-    "path":"folders/Blocks/BlockTileSets/ForestDesigns.yy",
+    "name":"Forest_Design",
+    "path":"folders/Blocks/Designs_Objects/Forest_Design.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

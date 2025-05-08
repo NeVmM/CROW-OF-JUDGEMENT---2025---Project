@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"HeavenDesigns",
-    "path":"folders/Blocks/BlockTileSets/HeavenDesigns.yy",
+    "name":"Heaven_Design",
+    "path":"folders/Blocks/Designs_Objects/Heaven_Design.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

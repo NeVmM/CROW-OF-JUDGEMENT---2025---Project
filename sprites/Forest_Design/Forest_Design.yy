@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Forest_Design",
-    "path":"folders/Blocks/BlockSprites/Forest_Design.yy",
+    "path":"folders/Blocks/Designs_Objects/Forest_Design.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

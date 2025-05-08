@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Heaven_Design",
-    "path":"folders/Blocks/BlockSprites/Heaven_Design.yy",
+    "path":"folders/Blocks/Designs_Objects/Heaven_Design.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

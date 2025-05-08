@@ -117,7 +117,7 @@ var parallaxX = camX * parallaxFactor;
 // Position the parallax layer relative to the camera view
 if (layer_exists("mountains")) 
 {
-	var parallaxX_mountains = camX * 0.7; // Moves at 50% of camera
+	var parallaxX_mountains = camX * 0.7; // the lower the digit the faster it moves..
     var offsetY_mountains = 50;           // Optional Y offset
     layer_x("mountains", camX + (parallaxX_mountains - camX)); // Lock the background’s top-left corner to the camera view
     layer_y("mountains", camY + offsetY_mountains); // Lock vertically with the camera
@@ -224,6 +224,66 @@ if (layer_exists("tree"))
     var offsetY_tree = 10;           // Optional Y offset
     layer_x("tree", camX + (parallaxX_tree - camX)); // Lock the background’s top-left corner to the camera view
     layer_y("tree", camY + offsetY_tree); // Lock vertically with the camera
+}
+
+#endregion
+
+#region CAVERNS PARALLAX
+
+if (layer_exists("cave1")) 
+{
+	var parallaxX_cave1 = camX * 0.9; // Moves at 50% of camera
+    var offsetY_cave1 = 0;           // Optional Y offset
+    layer_x("cave1", camX + (parallaxX_cave1 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("cave1", camY + offsetY_cave1); // Lock vertically with the camera
+}
+
+if (layer_exists("cave2")) 
+{
+	var parallaxX_cave2 = camX * 0.8; // Moves at 50% of camera
+    var offsetY_cave2 = 0;           // Optional Y offset
+    layer_x("cave2", camX + (parallaxX_cave2 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("cave2", camY + offsetY_cave2); // Lock vertically with the camera
+}
+
+if (layer_exists("light1")) 
+{
+	var parallaxX_light1 = camX * 0.7; // Moves at 50% of camera
+    var offsetY_light1 = 0;           // Optional Y offset
+    layer_x("light1", camX + (parallaxX_light1 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("light1", camY + offsetY_light1); // Lock vertically with the camera
+}
+
+if (layer_exists("cave3")) 
+{
+	var parallaxX_cave3 = camX * 0.6; // Moves at 50% of camera
+    var offsetY_cave3 = 0;           // Optional Y offset
+    layer_x("cave3", camX + (parallaxX_cave3 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("cave3", camY + offsetY_cave3); // Lock vertically with the camera
+}
+
+if (layer_exists("light2")) 
+{
+	var parallaxX_light2 = camX * 0.5; // Moves at 50% of camera
+    var offsetY_light2 = 0;           // Optional Y offset
+    layer_x("light2", camX + (parallaxX_light2 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("light2", camY + offsetY_light2); // Lock vertically with the camera
+}
+
+if (layer_exists("cave4")) 
+{
+	var parallaxX_cave4 = camX * 0.4; // Moves at 50% of camera
+    var offsetY_cave4 = 0;           // Optional Y offset
+    layer_x("cave4", camX + (parallaxX_cave4 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("cave4", camY + offsetY_cave4); // Lock vertically with the camera
+}
+
+if (layer_exists("cave5")) 
+{
+	var parallaxX_cave5 = camX * 0.3; // Moves at 50% of camera
+    var offsetY_cave5 = 0;           // Optional Y offset
+    layer_x("cave5", camX + (parallaxX_cave5 - camX)); // Lock the background’s top-left corner to the camera view
+    layer_y("cave5", camY + offsetY_cave5); // Lock vertically with the camera
 }
 
 #endregion
