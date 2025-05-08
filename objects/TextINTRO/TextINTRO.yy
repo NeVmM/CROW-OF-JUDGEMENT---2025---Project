@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Intro_Outro",
-    "path":"folders/Intro_Outro.yy",
+    "path":"folders/Rooms/Intro_Outro.yy",
   },
   "parentObjectId":null,
   "persistent":false,
