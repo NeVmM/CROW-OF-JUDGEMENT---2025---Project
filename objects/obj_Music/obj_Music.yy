@@ -8,8 +8,8 @@
   "name":"obj_Music",
   "overriddenProperties":[],
   "parent":{
-    "name":"Settings",
-    "path":"folders/Main Menu_Sprites and Objects/Settings.yy",
+    "name":"Music",
+    "path":"folders/Music.yy",
   },
   "parentObjectId":null,
   "persistent":false,

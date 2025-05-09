@@ -9,3 +9,4 @@ global.bind_attack = ord("H");
 global.bind_roll   = vk_lshift;
 
 
+
