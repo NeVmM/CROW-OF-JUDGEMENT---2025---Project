@@ -17,6 +17,11 @@ if moveDirection != 0
 if (!floating)
 {
 	xSpeed = moveDirection * moveSpeed;
+	
+	if(health <= 0)
+	{
+
+	}
 }
 
 #endregion	
@@ -377,7 +382,7 @@ if (onGround)
 
 #region Healthbar  
 
-// health decreases due to traps
+// health decreases due to traps (specifically flash character)
 
 if (place_meeting(x, y, oBad) && flash_cooldown <= 0) // Player collides with oBad (trap)
 {
@@ -419,7 +424,7 @@ if (flash_cooldown > 0)
     flash_cooldown--;
 }
 
-
+/*
 // **Health regeneration logic**
 // Only regenerate health if health is not decreasing (no trap damage happening)
 if (health > 0) 
@@ -445,15 +450,18 @@ if (health > 0)
 	{
         regen_timer = 0;  // Reset regen timer if trap is active
     }
-}
+}*/
 
 // If health reaches 0, restart the game
 if (health <= 0) 
 {
+	instance_create_layer(x, y, "Objects_Blocks", oDeathTimer);  
+	oCrow.image_alpha = 0; //makes oCrow invisible (1 = visible)
+	oCrow.xSpeed = false; //no movement
+	oCrow.moveSpeed = 0; //making sure no move is made since its 0
 	
-    game_restart();  //Restart the game when health is 0
+    //game_restart();  //Restart the game when health is 0
 	health = 100; //set back hp to 100 so you can start a new run again
-	
 }
 
 
@@ -461,13 +469,12 @@ if (health <= 0)
 
 #endregion
 
-#region GAME QUICK REST
+#region GAME QUICK RESET
 
 if (exitGame) //from KeyConfigures
 {
 	game_restart();
 }
-
 
 #endregion
 
@@ -615,5 +622,5 @@ mask_index = Sprite_GlideIdle;
 
 #endregion
 
-// UPDATED IN APRIL 27 - 2025
+// UPDATED IN MAY 9 - 2025
 

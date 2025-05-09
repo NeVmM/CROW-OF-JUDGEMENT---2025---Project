@@ -14,6 +14,7 @@ if (!is_fading)
       //stages in order but randomized picker
         if (oRoomLimiter.restAreaLimit == 0)
         {
+			health = 100;
 			oPoints.points = 0; //reset points after tutorial
 			oTimer.timer = 0; //reset timer after tutorial
 			
@@ -49,7 +50,7 @@ if (!is_fading)
 
         else if (oRoomLimiter.restAreaLimit == 3)
         {
-            var pick = irandom(4);
+            var pick = irandom(0);
             oRoomLimiter.roomLimit += 1;
 
             if (pick == 0) target_room = Hell1;
