@@ -1,4 +1,4 @@
-room_goto(TutorialRoom);
+room_goto(RoomIntro);
 
 
 

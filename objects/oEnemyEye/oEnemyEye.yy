@@ -15,10 +15,7 @@
     "name":"Enemies",
     "path":"folders/Characters_and_Spike/Enemies.yy",
   },
-  "parentObjectId":{
-    "name":"oEnemyFollow",
-    "path":"objects/oEnemyFollow/oEnemyFollow.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

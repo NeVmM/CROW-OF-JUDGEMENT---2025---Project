@@ -8,8 +8,8 @@
   "name":"TextOUTRO",
   "overriddenProperties":[],
   "parent":{
-    "name":"Intro_Outro",
-    "path":"folders/Rooms/Intro_Outro.yy",
+    "name":"Intro_Outro_DeadScrn",
+    "path":"folders/Rooms/Intro_Outro_DeadScrn.yy",
   },
   "parentObjectId":null,
   "persistent":false,

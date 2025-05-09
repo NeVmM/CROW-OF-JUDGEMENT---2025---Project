@@ -19,8 +19,8 @@
   ],
   "name":"RoomOutro",
   "parent":{
-    "name":"Intro_Outro",
-    "path":"folders/Rooms/Intro_Outro.yy",
+    "name":"Intro_Outro_DeadScrn",
+    "path":"folders/Rooms/Intro_Outro_DeadScrn.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

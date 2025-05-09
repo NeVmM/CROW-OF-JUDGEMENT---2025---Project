@@ -385,8 +385,8 @@
   "maintainGms1Font":false,
   "name":"fnt_text",
   "parent":{
-    "name":"Intro_Outro",
-    "path":"folders/Rooms/Intro_Outro.yy",
+    "name":"Intro_Outro_DeadScrn",
+    "path":"folders/Rooms/Intro_Outro_DeadScrn.yy",
   },
   "pointRounding":0,
   "ranges":[
@@ -400,7 +400,10 @@
   "sdfSpread":8,
   "size":15.0,
   "styleName":"Regular",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"",
   "usesSDF":false,
 }

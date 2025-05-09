@@ -15,3 +15,5 @@ else if (fade_alpha > 0)
 	fade_alpha -= fade_speed; //decrements speed
 	if (fade_alpha < 0) fade_alpha = 0;
 }
+
+image_alpha = 0; //sets oPortal Sprite Invisible
