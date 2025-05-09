@@ -12,9 +12,6 @@ if pause == true
 	var centerY = screenH / 2 ;
 
 	// Draw the sprite at screen center
-	draw_sprite(sPaused, 0, centerX, centerY - 130);
-
-	draw_sprite_stretched(sSettingsB, 0, centerX-96, centerY, 192, 60);
-	draw_sprite_stretched(sMainMenuB, 0, centerX-96, centerY+70, 192, 60);
+	draw_sprite(sPaused, 0, centerX, centerY);
 
 }

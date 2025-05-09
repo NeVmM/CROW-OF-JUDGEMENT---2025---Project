@@ -1,5 +1,7 @@
 global.music_volume = irandom_range(0,100);
 global.sound_volume = irandom_range(0,100);
+global.music_volume = 100;
+global.sound_volume = 100;
 
 // Default key bindings
 global.bind_right = ord("D");
