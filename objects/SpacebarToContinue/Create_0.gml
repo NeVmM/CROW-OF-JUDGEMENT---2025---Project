@@ -1,2 +1,2 @@
-jumpKeyPressed = keyboard_check_pressed(vk_space);
-jumpKey = keyboard_check(vk_space);
+// Store whether the player can trigger the room switch
+roomSwitchEnabled = true;

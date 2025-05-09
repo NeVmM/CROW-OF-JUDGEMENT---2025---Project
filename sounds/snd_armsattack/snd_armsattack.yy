@@ -12,8 +12,8 @@
   "duration":0.6240136,
   "name":"snd_armsattack",
   "parent":{
-    "name":"Music",
-    "path":"folders/Music.yy",
+    "name":"SoundFX",
+    "path":"folders/Music/SoundFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

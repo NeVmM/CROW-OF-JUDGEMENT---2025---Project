@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Overgrown_Music",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":114.42793,
+  "name":"Overgrown_Music",
+  "parent":{
+    "name":"RoomMusics",
+    "path":"folders/Music/RoomMusics.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Overgrown_Music.mp3",
+  "type":0,
+  "volume":1.0,
+}

@@ -3,6 +3,9 @@ if (!is_fading)
     if (oRoomLimiter.roomLimit >= oRoomLimiter.maxTeleport)
     {
         // Teleport to rest area
+		audio_stop_all();
+		audio_play_sound(RestArea_Music, 10, true); 
+		
         target_room = RestArea;
         is_fading = true;
         health = 100;
@@ -20,6 +23,8 @@ if (!is_fading)
 			
             var pick = irandom(4);
             oRoomLimiter.roomLimit += 1;
+			audio_stop_all();
+			audio_play_sound(Forest_Music, 10, true); 
 
             if (pick == 0) target_room = Forest1;
             if (pick == 1) target_room = Forest2;
@@ -32,6 +37,8 @@ if (!is_fading)
         {
             var pick = irandom(4);
             oRoomLimiter.roomLimit += 1;
+			audio_stop_all();
+			audio_play_sound(Overgrown_Music, 10, true); 
 
             if (pick == 0) target_room = Overgrown1;
             if (pick == 1) target_room = Overgrown2;
@@ -42,16 +49,24 @@ if (!is_fading)
 		
 		else if (oRoomLimiter.restAreaLimit == 2)
         {
-            var pick = irandom(0);
+            var pick = irandom(4);
             oRoomLimiter.roomLimit += 1;
+			audio_stop_all();
+			audio_play_sound(Cavern_Music, 10, true); 
 
             if (pick == 0) target_room = Caverns1;
+			if (pick == 1) target_room = Caverns2;
+			if (pick == 2) target_room = Caverns3;
+			if (pick == 3) target_room = Caverns4;
+			if (pick == 4) target_room = Caverns5;
         }
 
         else if (oRoomLimiter.restAreaLimit == 3)
         {
-            var pick = irandom(0);
+            var pick = irandom(4);
             oRoomLimiter.roomLimit += 1;
+			audio_stop_all();
+			audio_play_sound(Hell_Music, 10, true); 
 
             if (pick == 0) target_room = Hell1;
 			if (pick == 1) target_room = Hell2;
