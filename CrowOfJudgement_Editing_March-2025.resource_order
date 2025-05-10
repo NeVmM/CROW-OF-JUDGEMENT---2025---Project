@@ -137,6 +137,7 @@
     {"name":"RoomIntro","order":1,"path":"rooms/RoomIntro/RoomIntro.yy",},
     {"name":"RoomOutro","order":2,"path":"rooms/RoomOutro/RoomOutro.yy",},
     {"name":"Cavern_Music","order":4,"path":"sounds/Cavern_Music/Cavern_Music.yy",},
+    {"name":"CrowJump","order":1,"path":"sounds/CrowJump/CrowJump.yy",},
     {"name":"Forest_Music","order":3,"path":"sounds/Forest_Music/Forest_Music.yy",},
     {"name":"Hell_Music","order":1,"path":"sounds/Hell_Music/Hell_Music.yy",},
     {"name":"Hell1_Music","order":5,"path":"sounds/Hell1_Music/Hell1_Music.yy",},
