@@ -1,4 +1,4 @@
-alarm[0] = 140; //2.5 secs
+alarm[0] = 80; // 1.2 secs
 
 
 //fade effect

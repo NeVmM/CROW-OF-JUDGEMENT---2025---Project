@@ -3,3 +3,5 @@
 
 target_room = DeadScreen;
 is_fading = true;
+
+health = 100;

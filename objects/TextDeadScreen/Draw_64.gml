@@ -16,7 +16,7 @@ draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
 
 // Display text
 var display_text = 
-"YOU DIED \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Press SPACE to go back to Main Menu";
+"\n\n\n\n\n\n\n YOU'VE FAILED DEATH \n\n\n\n\n\n\n\n\n Press SPACE to go back to Main Menu";
 
 // Draw white text with padding and spacing
 draw_set_color(c_white);

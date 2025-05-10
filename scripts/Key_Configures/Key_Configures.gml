@@ -1,3 +1,4 @@
+/*
 function controlsSetup()
 {
 	bufferTime = 3;
@@ -51,11 +52,11 @@ function getControls()
 	
 }
 
+*/
 
 
 
 
-/*
 
 
 //MODIFIED FOR SETTINGS KEY CHANGE TO WORK

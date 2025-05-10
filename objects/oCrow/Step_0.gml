@@ -455,13 +455,14 @@ if (health > 0)
 // If health reaches 0, restart the game
 if (health <= 0) 
 {
+	health = 100;
 	instance_create_layer(x, y, "Objects_Blocks", oDeathTimer);  
 	oCrow.image_alpha = 0; //makes oCrow invisible (1 = visible)
 	oCrow.xSpeed = false; //no movement
 	oCrow.moveSpeed = 0; //making sure no move is made since its 0
 	
     //game_restart();  //Restart the game when health is 0
-	health = 100; //set back hp to 100 so you can start a new run again
+	//health = 100; //set back hp to 100 so you can start a new run again
 }
 
 
