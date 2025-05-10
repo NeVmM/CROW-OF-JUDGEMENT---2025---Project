@@ -384,7 +384,7 @@ if (onGround)
 
 // health decreases due to traps (specifically flash character)
 
-if (place_meeting(x, y, oBad) && flash_cooldown <= 0) // Player collides with oBad (trap)
+if (place_meeting(x, y, oBad) && flash_cooldown <= 0) // PLAYER COLLIDES WITH oBad (trap)
 {
 	flash_count = 6; // 3 flashes = on/off/on/off/on/off
     flash_timer = 3; // frames per flash (adjust as needed)
