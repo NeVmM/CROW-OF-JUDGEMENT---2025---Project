@@ -22,7 +22,7 @@ else if (fade_alpha > 0)
 //TIMER
 if (!variable_instance_exists(id, "timerEnd")) 
 {
-    timerEnd = 600;
+    timerEnd = 1800;
 }
 timerEnd -= 1;
 
