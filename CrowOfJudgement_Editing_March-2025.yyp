@@ -140,6 +140,7 @@
     {"id":{"name":"oRoomLimiter","path":"objects/oRoomLimiter/oRoomLimiter.yy",},},
     {"id":{"name":"oTimer_Intro","path":"objects/oTimer_Intro/oTimer_Intro.yy",},},
     {"id":{"name":"oTimer_Outro","path":"objects/oTimer_Outro/oTimer_Outro.yy",},},
+    {"id":{"name":"oTimer_SCYP_Outro","path":"objects/oTimer_SCYP_Outro/oTimer_SCYP_Outro.yy",},},
     {"id":{"name":"oTimer","path":"objects/oTimer/oTimer.yy",},},
     {"id":{"name":"TextCourse","path":"objects/TextCourse/TextCourse.yy",},},
     {"id":{"name":"TextDeadScreen","path":"objects/TextDeadScreen/TextDeadScreen.yy",},},

@@ -217,7 +217,7 @@
           -2147483648,-6,153,-167,-2147483648,1,0,-166,-2147483648,1,0,-1505,-2147483648,1,0,-19,-2147483648,-5,
           0,1,-2147483648,-3,0,1,-2147483648,-10,0,-17,-2147483648,-2,0,-57,-2147483648,-10,0,-40,-2147483648,
           -3,0,-143,102,-2,0,-19,-2147483648,-3,0,-143,119,-3,0,-21,-2147483648,-143,136,-509,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_HeavenBlock","path":"tilesets/Tile_HeavenBlock/Tile_HeavenBlock.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_HeavenBlock","path":"tilesets/Tile_HeavenBlock/Tile_HeavenBlock.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Weapon","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_2BB83309","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2BB83309","objectId":{"name":"oCrowWeapon","path":"objects/oCrowWeapon/oCrowWeapon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-128.0,"y":-192.0,},
       ],"layers":[],"name":"Weapon","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

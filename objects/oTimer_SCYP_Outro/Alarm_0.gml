@@ -1,4 +1,4 @@
 //game_restart();
 
-target_room = rm_SCYP;
+target_room = rm_CreditsMessage;
 is_fading = true;
