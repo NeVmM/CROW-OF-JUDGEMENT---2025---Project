@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_armsded",
+  "%Name":"SlimeAttack",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.44408163,
-  "name":"snd_armsded",
+  "duration":5.7121086,
+  "name":"SlimeAttack",
   "parent":{
     "name":"SoundFX",
     "path":"folders/Music/SoundFX.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_armsded.mp3",
+  "soundFile":"SlimeAttack.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.69,
 }

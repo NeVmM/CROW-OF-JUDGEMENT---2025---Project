@@ -11,5 +11,5 @@ with (other)
 }
 
 if (health <= 0) {
-    audio_play_sound(snd_armsded, 1, false);
+    audio_play_sound(ArmsDead, 1, false);
 }

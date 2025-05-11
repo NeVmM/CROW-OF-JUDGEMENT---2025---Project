@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"SlimeDead",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.6240136,
+  "name":"SlimeDead",
+  "parent":{
+    "name":"SoundFX",
+    "path":"folders/Music/SoundFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SlimeDead.mp3",
+  "type":0,
+  "volume":1.0,
+}

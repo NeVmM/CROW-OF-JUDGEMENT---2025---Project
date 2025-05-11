@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_armsattack",
+  "%Name":"ArmsAttack",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.47,
-  "name":"snd_armsattack",
+  "name":"ArmsAttack",
   "parent":{
     "name":"SoundFX",
     "path":"folders/Music/SoundFX.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_armsattack.mp3",
+  "soundFile":"ArmsAttack.mp3",
   "type":0,
   "volume":1.0,
 }
