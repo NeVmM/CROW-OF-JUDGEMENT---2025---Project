@@ -7,6 +7,8 @@ getControls();
 //Directions
 moveDirection = rightKey - leftKey;
 
+
+
 //Get My Face
 if moveDirection != 0 
 { 
@@ -18,10 +20,19 @@ if (!floating)
 {
 	xSpeed = moveDirection * moveSpeed;
 	
-	if(health <= 0)
-	{
-
-	}
+	// Only play walk sound if on ground and not gliding
+if (onGround && (rightKey or leftKey) && !(jumpCount == 2 && jumpKey))
+{
+    if (!audio_is_playing(CrowWalk))
+    {
+        audio_play_sound(CrowWalk, 10, true);
+        audio_sound_gain(CrowWalk, 4.0, 0);
+    }
+}
+else
+{
+    audio_stop_sound(CrowWalk);
+}
 }
 
 #endregion	
@@ -51,6 +62,8 @@ if (onGround)
 	jumpCount = 0;
 	jumpHoldTimer = 0;
 	coyoteJmpTimer = coyoteJumpFrames;
+	
+	
 } 
 else 
 {
@@ -76,6 +89,11 @@ if (jumpKeyBuffered && jumpCount < jumpMax)
 	//Tell ourselves we're no longer on the ground
 	setOnGround(false);
 	coyoteJumpTimer = 0;
+	
+	audio_play_sound(CrowJump, 10, false);
+	audio_sound_gain(CrowJump, 2.0, 0); // Sets volume to 2.0 instantly (0 = no fade)
+
+
 }
 
 //Cut off jump when releasing button
@@ -156,6 +174,10 @@ if (rollKey && !is_rolling && rollCooldown <= 0 && canRoll)
     {
         airRollUsed = true;
     }
+	
+	 // Play roll sound
+    audio_play_sound(CrowRoll, 10, false);
+    audio_sound_gain(CrowRoll, 2.0, 0); // Sets volume to 2.0 instantly (0 = no fade)
 }
 
 // Rolling animation & movement
@@ -314,6 +336,7 @@ if (attack_cooldown > 0)
 {
     // If attack cooldown is not 0, reduce it
     attack_cooldown = max(0, attack_cooldown - 1);
+	
 }
 else
 {
@@ -325,6 +348,10 @@ else
         {
             attack_cooldown = attack_max; // Set cooldown timer
             instance_create_layer(x, y, "Weapon", oCrowWeapon); // Create weapon instance
+			
+			audio_play_sound(CrowAttack, 10, false);
+			audio_sound_gain(CrowAttack, 2.0, 0); // Sets volume to 2.0 instantly (0 = no fade)
+
         }
     }
 }
@@ -344,6 +371,10 @@ if (!onGround && attackKey && airAttackCount < 3)
 
     // Create weapon instance for the attack
     instance_create_layer(x, y, "Weapon", oCrowWeapon);
+	
+	audio_play_sound(CrowAttack, 10, false);
+			audio_sound_gain(CrowAttack, 2.0, 0); // Sets volume to 2.0 instantly (0 = no fade)
+
 }
 
 // Stop attacks after 3 air attacks

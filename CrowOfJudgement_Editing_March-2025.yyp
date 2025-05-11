@@ -72,7 +72,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"CrowOfJudgement_Editing_March-2025",
   "resources":[
@@ -196,7 +196,10 @@
     {"id":{"name":"Key_Configures","path":"scripts/Key_Configures/Key_Configures.yy",},},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},},
     {"id":{"name":"Cavern_Music","path":"sounds/Cavern_Music/Cavern_Music.yy",},},
+    {"id":{"name":"CrowAttack","path":"sounds/CrowAttack/CrowAttack.yy",},},
     {"id":{"name":"CrowJump","path":"sounds/CrowJump/CrowJump.yy",},},
+    {"id":{"name":"CrowRoll","path":"sounds/CrowRoll/CrowRoll.yy",},},
+    {"id":{"name":"CrowWalk","path":"sounds/CrowWalk/CrowWalk.yy",},},
     {"id":{"name":"deadMusic1","path":"sounds/deadMusic1/deadMusic1.yy",},},
     {"id":{"name":"deadMusic2","path":"sounds/deadMusic2/deadMusic2.yy",},},
     {"id":{"name":"Forest_Music","path":"sounds/Forest_Music/Forest_Music.yy",},},
@@ -206,6 +209,7 @@
     {"id":{"name":"Overgrown_Music","path":"sounds/Overgrown_Music/Overgrown_Music.yy",},},
     {"id":{"name":"RestArea_Music","path":"sounds/RestArea_Music/RestArea_Music.yy",},},
     {"id":{"name":"snd_armsattack","path":"sounds/snd_armsattack/snd_armsattack.yy",},},
+    {"id":{"name":"snd_armsded","path":"sounds/snd_armsded/snd_armsded.yy",},},
     {"id":{"name":"snd_Click","path":"sounds/snd_Click/snd_Click.yy",},},
     {"id":{"name":"snd_Music","path":"sounds/snd_Music/snd_Music.yy",},},
     {"id":{"name":"TutorialArea_Music","path":"sounds/TutorialArea_Music/TutorialArea_Music.yy",},},

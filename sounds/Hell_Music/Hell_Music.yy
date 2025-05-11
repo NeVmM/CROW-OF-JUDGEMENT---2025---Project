@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":234.30751,
+  "duration":72.967255,
   "name":"Hell_Music",
   "parent":{
     "name":"RoomMusics",

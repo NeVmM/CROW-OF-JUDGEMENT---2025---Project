@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_armsattack",
+  "%Name":"CrowWalk",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.47,
-  "name":"snd_armsattack",
+  "duration":5.781769,
+  "name":"CrowWalk",
   "parent":{
     "name":"SoundFX",
     "path":"folders/Music/SoundFX.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_armsattack.mp3",
+  "soundFile":"CrowWalk.mp3",
   "type":0,
   "volume":1.0,
 }

@@ -9,3 +9,7 @@ with (other)
 	shake_timer = 10;
 	}
 }
+
+if (health <= 0) {
+    audio_play_sound(snd_armsded, 1, false);
+}
