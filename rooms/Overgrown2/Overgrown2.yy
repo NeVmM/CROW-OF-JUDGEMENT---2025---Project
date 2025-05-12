@@ -197,8 +197,8 @@
           10,1,14,-13,2,1,268435470,-20,10,1,14,-15,2,1,3,-8,-2147483648,1,9,-15,10,1,1073741826,-39,-2147483648,
           1,1879048194,-46,10,1,1073741826,-23,-2147483648,1,1342177298,-63,10,1,11,-8,-2147483648,1,9,-15,10,
           1,1073741826,-39,-2147483648,1,1879048194,-46,10,1,1073741826,-23,-2147483648,1,1342177298,-63,10,1,
-          11,-8,-2147483648,1,9,-15,10,1,1342177294,-34,2,-2,1073741833,-2,2,4,1073741833,1879048206,10,22,-44,
-          10,1,14,-23,2,1,13,-63,10,1,268435469,-8,2,1,13,-327,10,
+          11,-8,-2147483648,1,9,-15,10,1,1342177294,-34,2,-2,1073741833,-2,2,2,1073741833,1879048206,-46,10,1,
+          14,-23,2,1,13,-63,10,1,268435469,-8,2,1,13,-327,10,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_OvergrownBlock","path":"tilesets/Tile_OvergrownBlock/Tile_OvergrownBlock.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Weapon","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_96A56A5_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_96A56A5_1","objectId":{"name":"oCrowWeapon","path":"objects/oCrowWeapon/oCrowWeapon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":0.0,},
