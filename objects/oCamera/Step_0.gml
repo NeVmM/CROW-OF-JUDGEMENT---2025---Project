@@ -1,4 +1,4 @@
-#region Camera Stuff
+	#region Camera Stuff
 
 //Fullscreen toggle
 if keyboard_check_pressed(vk_f8)
