@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":7.685805,
+  "duration":2.885805,
   "name":"SkeletonWalking",
   "parent":{
     "name":"SoundFX",

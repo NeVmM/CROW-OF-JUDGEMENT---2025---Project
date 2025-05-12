@@ -73,6 +73,12 @@ if (instance_exists(_player))
             attack_effect_spawned = false;
             sprite_index = Sprite_EnemySpiritSword_Attack;
 			
+			
+			audio_play_sound(SpiritSwordAttack, 10, false);
+			audio_sound_gain(SpiritSwordAttack, 1.5, 0); // Optional: Set volume
+	
+			
+			
 // Lower the enemy during attack
 if (is_attacking)
 {

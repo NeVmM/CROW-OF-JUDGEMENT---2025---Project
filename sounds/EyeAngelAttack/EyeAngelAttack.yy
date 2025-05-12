@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"SlimeAttack",
+  "%Name":"EyeAngelAttack",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.03,
-  "name":"SlimeAttack",
+  "duration":1.45,
+  "name":"EyeAngelAttack",
   "parent":{
     "name":"SoundFX",
     "path":"folders/Music/SoundFX.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"SlimeAttack.mp3",
+  "soundFile":"EyeAngelAttack.mp3",
   "type":0,
-  "volume":0.75,
+  "volume":1.0,
 }

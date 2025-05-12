@@ -114,7 +114,13 @@ if (instance_exists(_player))
         if (abs(dist_x) > 8) // Add a small buffer to prevent "twitching"
         {
             x += facing * moveSpeed;
+			
+				audio_play_sound(FairyChaseSFX, 10, false);
+				audio_sound_gain(FairyChaseSFX, 0.5, 0); // Optional: Set volume
+	
         }
+		
+		
     }
 }
 #endregion
