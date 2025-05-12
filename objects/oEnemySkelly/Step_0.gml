@@ -100,8 +100,35 @@ if (is_attacking)
 }
 #endregion
 
+//#region Walking Sound Logic
+//var _player = instance_nearest(x, y, oCrow);
+//var dist = point_distance(x, y, _player.x, _player.y); // Calculate distance to player
 
-
+//if (dist < 500)  // Check if player is within range (adjust distance as needed)
+//{
+//    if (xSpeed != 0 && !is_attacking) // If moving and not attacking
+//    {
+//        if (!audio_is_playing(SkeletonWalking)) // Play sound if not already playing
+//        {
+//            audio_play_sound(SkeletonWalking, 10, true); // Play sound in loop
+//        }
+//    }
+//    else
+//    {
+//        if (audio_is_playing(SkeletonWalking)) // Stop sound when idle
+//        {
+//            audio_stop_sound(SkeletonWalking); // Stop walking sound
+//        }
+//    }
+//}
+//else
+//{
+//    if (audio_is_playing(SkeletonWalking)) // Stop sound if player is out of range
+//    {
+//        audio_stop_sound(SkeletonWalking); // Stop walking sound
+//    }
+//}
+//#endregion
 
 
 

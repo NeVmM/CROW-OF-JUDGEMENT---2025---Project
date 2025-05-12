@@ -112,6 +112,9 @@ if (instance_exists(_player))
                     sprite_index = Sprite_EnemyArms_Attack;
                     image_index = 0;
                     image_speed = 1.5;
+					
+					audio_play_sound(ArmsAttack, 10, false);
+					audio_sound_gain(ArmsAttack, 1.5, 0); // Optional: Set volume
                 }
             }
         }
@@ -181,3 +184,33 @@ if (attack_cooldown > 0)
     attack_cooldown--;
 }
 #endregion
+
+
+// KNOCKBACK EFFECT
+if (got_hit) {
+    // Disable gravity during knockback
+    gravity_disabled = true;
+
+    // Apply knockback in the opposite direction of the attack
+    x += knockback_x;
+    y += knockback_y;
+
+    // Apply damping to knockback for gradual slow-down
+    knockback_x *= 0.5;  // Horizontal knockback slowdown
+    knockback_y += 0.4;  // Gravity-like effect (gravity pull during knockback)
+
+    // Stop knockback after it's small enough
+    if (abs(knockback_x) < 0.1 && abs(knockback_y) < 0.1) {
+        got_hit = false;
+        knockback_x = 0;
+        knockback_y = 0;
+        gravity_disabled = false;  // Re-enable gravity once knockback ends
+    }
+}
+
+// Apply gravity only if knockback has finished (gravity is not disabled)
+if (!gravity_disabled) {
+    var grav = 0.5;
+    ySpeed += grav;
+    ySpeed = clamp(ySpeed, -10, 10);  // Apply gravity
+}

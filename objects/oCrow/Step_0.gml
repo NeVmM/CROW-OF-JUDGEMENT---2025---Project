@@ -5,7 +5,9 @@ getControls();
 #region Horizontal Movement
 //X-Movement
 //Directions
-moveDirection = rightKey - leftKey; 
+moveDirection = rightKey - leftKey;
+
+
 
 //Get My Face
 if moveDirection != 0 
@@ -17,19 +19,21 @@ if moveDirection != 0
 if (!floating)
 {
 	xSpeed = moveDirection * moveSpeed;
-}
-
-// =================================================================
-// Apply slow effect if in Heavens5
-if (room == Heavens5)
+	
+	// Only play walk sound if on ground and not gliding
+if (onGround && (rightKey or leftKey) && !(jumpCount == 2 && jumpKey))
 {
-    moveSpeed = 1.5;
-	if (moveDirection != 0)
-	{
-		sprite_index = Sprite_Glide;
-	}
+    if (!audio_is_playing(CrowWalk))
+    {
+        audio_play_sound(CrowWalk, 10, true);
+        audio_sound_gain(CrowWalk, 4.0, 0);
+    }
 }
-// =================================================================
+else
+{
+    audio_stop_sound(CrowWalk);
+}
+}
 
 #endregion	
 
@@ -58,6 +62,8 @@ if (onGround)
 	jumpCount = 0;
 	jumpHoldTimer = 0;
 	coyoteJmpTimer = coyoteJumpFrames;
+	
+	
 } 
 else 
 {
@@ -83,6 +89,11 @@ if (jumpKeyBuffered && jumpCount < jumpMax)
 	//Tell ourselves we're no longer on the ground
 	setOnGround(false);
 	coyoteJumpTimer = 0;
+	
+	audio_play_sound(CrowJump, 10, false);
+	audio_sound_gain(CrowJump, 2.0, 0); // Sets volume to 2.0 instantly (0 = no fade)
+
+
 }
 
 //Cut off jump when releasing button
@@ -163,6 +174,10 @@ if (rollKey && !is_rolling && rollCooldown <= 0 && canRoll)
     {
         airRollUsed = true;
     }
+	
+	 // Play roll sound
+    audio_play_sound(CrowRoll, 10, false);
+    audio_sound_gain(CrowRoll, 2.0, 0); // Sets volume to 2.0 instantly (0 = no fade)
 }
 
 // Rolling animation & movement
@@ -321,6 +336,7 @@ if (attack_cooldown > 0)
 {
     // If attack cooldown is not 0, reduce it
     attack_cooldown = max(0, attack_cooldown - 1);
+	
 }
 else
 {
@@ -332,6 +348,10 @@ else
         {
             attack_cooldown = attack_max; // Set cooldown timer
             instance_create_layer(x, y, "Weapon", oCrowWeapon); // Create weapon instance
+			
+			audio_play_sound(CrowAttack, 10, false);
+			audio_sound_gain(CrowAttack, 2.0, 0); // Sets volume to 2.0 instantly (0 = no fade)
+
         }
     }
 }
@@ -351,6 +371,10 @@ if (!onGround && attackKey && airAttackCount < 3)
 
     // Create weapon instance for the attack
     instance_create_layer(x, y, "Weapon", oCrowWeapon);
+	
+	audio_play_sound(CrowAttack, 10, false);
+			audio_sound_gain(CrowAttack, 2.0, 0); // Sets volume to 2.0 instantly (0 = no fade)
+
 }
 
 // Stop attacks after 3 air attacks
@@ -411,7 +435,7 @@ if (place_meeting(x, y, oBad) && flash_cooldown <= 0) // PLAYER COLLIDES WITH oB
 	{
         if (health > 0) 
 		{
-            health -= 10;  // Decrease health by x digit
+            health -= 20;  // Decrease health by x digit
             alarm[0] = room_speed * 1.3;  // Set alarm to trigger after 1.3 seconds
         }
     }
@@ -499,6 +523,53 @@ if (exitGame) //from KeyConfigures
 
 // --- OTHER STUFF BELOW ---   ============================================================
 
+#region OLD Built-In PARTICLE (NOT IN USED)
+//=========================================================================================
+//OTHER STUFF BELOW
+//=========================================================================================
+/*
+#region Particle System
+// Emit particles when the player is running
+if (abs(xSpeed) > 0 && onGround) 
+{
+	// Emit the particle behind the player
+	var xOffset = -2 * face; // Adjust this value to control where particles appear
+	part_particles_create(part_sys, x + xOffset, y - 5, part_type, 1);
+}
+
+//Create the particle system
+part_sys = part_system_create();
+part_type = part_type_create();
+	
+//Running Particle Properties
+part_type_shape(part_type, pt_shape_pixel); // Set shape to pixel or customize
+part_type_size(part_type, 0.1, 0.2, 0.1, 0); // Size of the particle
+//(THIS IS USED HERE, IF THE RANDOM-COLOR BELOW IS NOT PRESENT)  >>>   part_type_color1(part_type, c_white); // You can change the color
+part_type_speed(part_type, 1, 2, 0, 0); // Speed of the particles
+part_type_direction(part_type, 0, 360, 0, 0); // Random directions
+part_type_life(part_type, 15, 30); // Lifespan of the particles
+
+//ParticleColor - Random Choose
+// Set up the particle colors
+var color1 = c_white; // First color
+var color2 = c_ltgray;   // Second color
+
+// Randomly choose one of the two colors for the particles
+var chosen_color = irandom(1); // Randomly get 0 or 1
+	
+if (chosen_color == 0) 
+{
+	part_type_color1(part_type, color1);
+} 
+else 
+{
+	part_type_color1(part_type, color2);
+}
+
+#endregion
+*/
+#endregion
+
 #region New Better Particle (USED)
 
 if (abs(xSpeed) > 0 && onGround) 
@@ -524,14 +595,7 @@ if (abs(xSpeed) > 0 && onGround)
 // Running
 if (abs(xSpeed) > 0 && onGround) 
 { 
-	if (room == Heavens5)
-	{
-		sprite_index = Sprite_Glide;
-	}
-	else
-	{
-		sprite_index = Sprite_Run;
-	}
+    sprite_index = Sprite_Run; 
 } 
 // Idle
 if (xSpeed == 0 && onGround) 

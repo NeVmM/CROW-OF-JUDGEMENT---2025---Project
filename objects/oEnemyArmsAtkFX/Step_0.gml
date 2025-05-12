@@ -4,3 +4,4 @@ if (instance_exists(owner)) {
     y = owner.y;
     image_xscale = facing; // Flip horizontally based on direction
 }
+

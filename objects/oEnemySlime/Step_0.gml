@@ -112,6 +112,10 @@ if (instance_exists(_player))
                     sprite_index = Sprite_EnemySlime_Attack;
                     image_index = 0;
                     image_speed = 1.5;
+					
+					
+					audio_play_sound(SlimeAttack, 10, false);
+					audio_sound_gain(SlimeAttack, 1.5, 0); // Optional: Set volume
                 }
             }
         }

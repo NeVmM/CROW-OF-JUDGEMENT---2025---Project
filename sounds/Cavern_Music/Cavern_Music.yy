@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":99.56415,
+  "duration":34.485985,
   "name":"Cavern_Music",
   "parent":{
     "name":"RoomMusics",
