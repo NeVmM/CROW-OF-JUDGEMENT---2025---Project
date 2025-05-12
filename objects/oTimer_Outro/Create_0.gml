@@ -1,4 +1,4 @@
-timeEnd = 600; //10 seconds
+timeEnd = 1500; //25 seconds
 
 
 

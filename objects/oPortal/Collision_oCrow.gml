@@ -1,5 +1,5 @@
 if (!is_fading)
-{
+{	
     if (oRoomLimiter.roomLimit >= oRoomLimiter.maxTeleport)
     {
         // Teleport to rest area
@@ -77,35 +77,49 @@ if (!is_fading)
 
         else if (oRoomLimiter.restAreaLimit == 4)
         {
-            var pick = irandom(4);
+            var pick = irandom(3);
             oRoomLimiter.roomLimit += 1;
+			audio_stop_all();
+			audio_play_sound(HeavenArea_Music, 10, true); 
 
             if (pick == 0) target_room = Heavens1;
             if (pick == 1) target_room = Heavens2;
             if (pick == 2) target_room = Heavens3;
             if (pick == 3) target_room = Heavens4;
-            if (pick == 4) target_room = Heavens5;
+			
+            //if (pick == 4) target_room = Heavens5;
         }
 		
 		else if (oRoomLimiter.restAreaLimit == 5)
         {
             var pick = irandom(0);
-            oRoomLimiter.roomLimit += 1;
+			oRoomLimiter.roomLimit = 0;
+			oRoomLimiter.restAreaLimit = 6;
+			audio_stop_all();
+			audio_play_sound(HeavenAreaLast_END_Music, 10, true); 
 
-            if (pick == 0) target_room = RoomOutro;
+            if (pick == 0) target_room = Heavens5; //FINAL END STAGE
+        }
+		
+		else if (oRoomLimiter.restAreaLimit == 5)
+        {
+            var pick = irandom(0)
+            if (pick == 0) target_room = RoomOutro; // OUTRO ROOM
         }
 
         else
         {
-            game_end();
+            target_room = RoomOutro // MAKING SURE YOU GO HERE NEXT IF ALL THINGAMABOB FALLS
         }
+
+
+
 
         if (target_room != noone)
         {
             is_fading = true;
         }
-		
-		
-    }
+	}
 }
+	
 

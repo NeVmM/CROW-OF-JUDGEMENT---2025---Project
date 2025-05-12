@@ -16,4 +16,4 @@ else if (fade_alpha > 0)
 	if (fade_alpha < 0) fade_alpha = 0;
 }
 
-image_alpha = 0; //sets oPortal Sprite Invisible
+image_alpha = 1; //sets oPortal Sprite Invisible
